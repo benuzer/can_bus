@@ -17,9 +17,6 @@ anlatim_can/
 ├── cihazlar_and_parcalar/    # Donanım fotoğrafları
 │   ├── can-bus_shield/       # Shield kartı görselleri
 │   └── usb-can-b/            # USB-CAN-B görselleri
-├── test_and_analyzer/        # Analiz yazılımları
-│   ├── CANPro/               # CANPro Analyzer (gelişmiş analiz)
-│   └── CANTest/              # CANTest (hızlı bağlantı testi)
 ├── saldırılar/               # Saldırı teknikleri üzerine akademik makaleler
 │   ├── CAN_fuzzing/          # Fuzzing saldırı makaleleri
 │   ├── can_spoofing_replay_MitM/  # Spoofing, Replay ve MitM makaleleri
@@ -70,14 +67,6 @@ anlatim_can/
 
 ---
 
-## 🛠️ Analiz Yazılımları
-
-`test_and_analyzer/` klasöründe iki adet Windows tabanlı CAN analiz yazılımı bulunur:
-
-- **CANPro Analyzer** → Gelişmiş analiz, DBC desteği, saldırı scriptleri (`auto_attack.ps1`, `brute_force.ps1`, `car_emulator.ps1`)
-- **CANTest** → Hızlı bağlantı doğrulama ve temel veri izleme
-
----
 
 ## 📚 Akademik Kaynaklar
 
@@ -96,7 +85,3 @@ Tüm güncel açık kaynak CAN araçları, veri setleri, DBC sözlükleri ve fra
 📄 **[canbus_kaynaklar.md](canbus_kaynaklar.md)**
 
 ---
-
-## 🏫 Kullanım
-
-Bu repo, laboratuvar ortamında **USB-CAN-B + CAN-Bus Shield + PC** seti üzerinden öğrencilerin CAN Bus siber güvenliğini uygulamalı olarak öğrenmesi için hazırlanmıştır.
