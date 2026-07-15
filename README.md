@@ -4,7 +4,7 @@ Araç içi ağlarda (CAN Bus) siber güvenlik araştırması, saldırı simülas
 
 > **Donanım Seti:** USB-CAN-B + SparkFun CAN-Bus Shield + PC
 
-![Laboratuvar Düzeneği](cihazlar_and_parcalar/IMG_20260418_210523.jpg.jpeg)
+![Laboratuvar Düzeneği](cihazlar_and_parcalar/IMG_20260716_001519.jpg.jpeg)
 
 ---
 
