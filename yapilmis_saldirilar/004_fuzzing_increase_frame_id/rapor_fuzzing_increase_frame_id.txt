@@ -1,0 +1,22 @@
+📂 Rapor 4: Fuzzing ve ECU Çökertme (Fuzzing / Crash)
+Klasörün için bu testin raporunu hemen hazırlayalım:
+
+Saldırı Türü: Kaba Kuvvet (Brute-Force) Fuzzing
+
+Amaç: Hedef ECU'nun bilinmeyen ID ve Data kombinasyonlarına karşı hata yönetimi (Error Handling) zafiyetini sömürerek sistemi donanımsal/yazılımsal olarak çökertmek (Crash).
+
+Saldırı Parametreleri:
+
+Başlangıç ID'si: 000
+
+Mod: Increase frame ID (Otomatik ID artırımı ile tüm ağı tarama)
+
+Interval (Hız): 5 ms (Saniyede ~200 frame)
+
+Veri (Payload): 00 00 00 00 00 00 00 00 (Sabit)
+
+Hedef ECU (Arduino) Davranışı: Sistem öncelikle kendi rutin trafiğini (0x100 ve 0x101) basmaya devam etti. Ancak saldırgan tarafından gönderilen tanımsız ID'ler arabelleği doldurmaya başlayıp belirlenen güvenlik eşiğini (Watchdog sayacı > 500) aştığında, ECU'nun çekirdek yazılımı (Kernel) başa çıkamayarak kendini kilitledi (Hard-Fault / while(1) döngüsü).
+
+Gözlem: İletişim tamamen koptu. ECU artık normal paketlerini basamıyor ve dışarıdan gelen hiçbir meşru komuta cevap vermiyor. Sistemi kurtarmanın tek yolu gücü kesip yeniden vermek (Hard Reset).
+
+IDS İçin Önemi: Bu test, ardışık ve anlamsız ID artışlarının bir ağda nasıl bir "anomali deseni" yarattığını loglamamızı sağladı.

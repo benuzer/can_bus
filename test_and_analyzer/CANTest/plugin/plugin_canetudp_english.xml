@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<resource CompactMode="1" Langauage="English">
+	<string id="1" value="No information on board."/>
+	<string id="2" value="No Operation."/>
+	<string id="3" value="Please Select the Device Index."/>
+	<dialog id="2000" caption="Select Device - CANET-UDP" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 204, 142">
+		<control caption="Loacl Port:" position="95, 10, 46, 8"/>
+		<control id="2012" class="EDIT" style="1350631552" position="143, 7, 40, 13"/>
+		<control caption="CANET-UDP IP:" style="1342308354" position="21, 40, 69, 8"/>
+		<control id="2013" class="SysIPAddress32" caption="IPAddress1" style="1342242816" position="93, 37, 91, 13"/>
+		<control caption="CANET-UDP Work Port:" style="1342308354" position="7, 59, 83, 8"/>
+		<control id="2014" class="EDIT" style="1350631552" position="93, 56, 91, 13"/>
+		<control class="BUTTON" caption=" CANET-UDP Settings " style="1342177287" position="5, 27, 191, 49"/>
+		<control caption="Device Index:" position="6, 10, 60, 8"/>
+		<control id="2015" class="COMBOBOX" style="1344340227" position="62, 7, 28, 191"/>
+		<control id="1" class="BUTTON" caption="OK" style="1342242817" position="45, 87, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="108, 87, 50, 16"/>
+		<control id="1004" class="BUTTON" caption="OK and Start CAN" style="1342242816" position="45, 111, 113, 16"/>
+	</dialog>
+</resource>

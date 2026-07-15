@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource CompactMode="1" Language="English">
+	<string id="1" value="No information on board."/>
+	<string id="2" value="No Operation."/>
+	<string id="3" value="Please Select the Device Index."/>
+	<string id="4" value="Read Failed."/>
+	<string id="5" value="Interrupt: 0x%02x\nCAN Mode Register: 0x%02x\nCAN Status Register: 0x%02x\nCAN Arbitration Lost Capture Register: 0x%02x\nCAN Error Code Capture Register: 0x%02x\nCAN Error Warning Limit Register: 0x%02x\nCAN Rx Error Counter Register: 0x%02x\nCAN Tx Error Counter Register: 0x%02x"/>
+	<string id="6" value="This device has no information on board."/>
+	<string id="7" value="Error Code: 0x%02x\n"/>
+	<string id="8" value="Error Data: 0x%02x 0x%02x 0x%02x "/>
+	<string id="9" value="Error Data: 0x%02x "/>
+	<string id="10" value="Error Data: None"/>
+	<string id="11" value="Please input data."/>
+	<string id="12" value="The register's address: 0x%02x   Value: 0x%02x"/>
+	<string id="13" value="Write Failed."/>
+	<string id="14" value="Write Failed."/>
+	<string id="15" value="channel"/>
+	<string id="16" value="type"/>
+	<string id="17" value="ID-Start"/>
+	<string id="18" value="ID-End"/>
+	<string id="19" value="index"/>
+	<string id="20" value="ErrCode"/>
+	<string id="21" value="ErrReg"/>
+	<string id="22" value="FIFO Overflow"/>
+	<string id="23" value="Alarm"/>
+	<string id="24" value="Passive"/>
+	<string id="25" value="Lost"/>
+	<string id="26" value="Bus Error"/>
+	<string id="27" value="Bus Off"/>
+	<string id="28" value="StdFrameMode"/>
+	<string id="29" value="StdGroupMode"/>
+	<string id="30" value="ExtFrameMode"/>
+	<string id="31" value="ExtGroupMode"/>
+	<string id="32" value="Normal"/>
+	<string id="33" value="Listener"/>
+    <string id="34" value="Device Information:\n  Hardware Version: %s\n  Firmware Version: %s\n  Driver Version: %s\n  API Library Version: %s\n  IRQ Num: %s\n  Channels: %s\n  Serial Num: %s\n  Device Type: %s"/>
+    <string id="35" value="Select Device - %s"/>
+	<dialog id="149" caption="Device Operation" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 280, 343">
+		<control class="BUTTON" caption="ErrInfo" style="1342177287" position="4, 4, 272, 300"/>
+		<control id="1" class="BUTTON" caption="OK" style="1342242816" position="108, 316, 60, 16"/>
+		<control id="1001" class="BUTTON" caption="Read" style="1342242816" position="108, 280, 62, 16"/>
+		<control id="1002" class="SysListView32" caption="List1" style="1350631425" position="12, 16, 256, 252"/>
+	</dialog>
+	<dialog id="1000" caption="Filter Config" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 240, 279">
+		<control id="1" class="BUTTON" caption="OK" style="1342242817" position="67, 252, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="123, 252, 50, 16"/>
+		<control class="BUTTON" caption="Filter Table" style="1342177287" position="4, 4, 232, 236"/>
+		<control id="1003" class="SysListView32" caption="List1" style="1350631437" position="12, 16, 216, 148"/>
+		<control caption="Channel" position="11, 197, 36, 8"/>
+		<control caption="Mode" position="12, 180, 36, 8"/>
+		<control caption="ID-Start: 0x" position="136, 176, 49, 8"/>
+		<control caption="ID-End: 0x" position="136, 196, 49, 8"/>
+		<control id="1004" class="BUTTON" caption="Add" style="1342242816" position="124, 216, 50, 16"/>
+		<control id="1005" class="BUTTON" caption="Delete" style="1342242816" position="180, 216, 50, 16"/>
+		<control id="1006" class="BUTTON" caption="Enable Filter" style="1342242819" position="12, 220, 96, 10"/>
+		<control id="1007" class="COMBOBOX" style="1344340227" position="47, 193, 84, 64"/>
+		<control id="1008" class="COMBOBOX" style="1344340227" position="48, 176, 84, 64"/>
+		<control id="1009" class="EDIT" style="1350631552" position="188, 172, 40, 14"/>
+		<control id="1010" class="EDIT" style="1350631552" position="188, 192, 40, 14"/>
+	</dialog>
+	<dialog id="2000" caption="Select Device - PCI-5010-U" fontsize="9" fontface="MS Sans Serif" style="-1865940800" position="0, 0, 247, 184">
+		<control caption="Device Index" position="12, 24, 64, 8"/>
+		<control id="2015" class="COMBOBOX" style="1344340227" position="63, 21, 48, 191"/>
+		<control id="1" class="BUTTON" caption="OK" style="1342242817" position="67, 135, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="130, 135, 50, 16"/>
+		<control id="1004" class="BUTTON" caption="OK and Start CAN" style="1342242816" position="67, 158, 113, 16"/>
+		<control id="1011" class="COMBOBOX" style="1344340227" position="177, 21, 48, 64"/>
+		<control caption="CAN Index" position="127, 23, 44, 8"/>
+		<control class="BUTTON" caption="Selection" style="1342177287" position="4, 4, 232, 56"/>
+		<control class="BUTTON" caption="Settings" style="1342177287" position="4, 64, 231, 58"/>
+		<control caption="Baudrate" position="12, 80, 52, 8"/>
+		<control caption="Mode" position="130, 80, 17, 8"/>
+		<control caption="Baudrate Register:0x" position="12, 100, 84, 8"/>
+		<control id="1012" class="COMBOBOX" style="1344340227" position="64, 76, 48, 120"/>
+		<control id="1013" class="COMBOBOX" style="1344340227" position="177, 76, 48, 64"/>
+		<control id="1014" class="EDIT" style="1350631552" position="104, 97, 44, 14"/>
+		<control id="1015" class="BUTTON" caption="Custom Baudrate" style="1342242819" position="164, 100, 62, 11"/>
+    <control id="2002" class="BUTTON" caption="Select all" style="1342242819" position="164, 41, 62, 11"/>
+	</dialog>
+</resource>

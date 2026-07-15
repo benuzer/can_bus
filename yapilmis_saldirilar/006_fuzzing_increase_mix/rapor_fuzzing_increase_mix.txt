@@ -1,0 +1,16 @@
+📂 Rapor 4.2: Blind / Chaotic Fuzzing (Tam Kaos) Saldırısı
+Saldırı Türü: Chaotic Fuzzing / Multi-variable Brute Force
+
+Amaç: Ağda hem kimlikleri (ID) hem de verileri (Payload) eşzamanlı olarak rastgeleleştirip maksimum entropi (karmaşa) yaratarak sistemi bellek taşmasına ve çökmeye (crash) zorlamak.
+
+Saldırı Parametreleri (CANPro):
+
+ID: Increase frame ID (Aktif)
+
+Data: Increase frame Data (Aktif)
+
+Interval: 5 ms
+
+Hedef ECU Davranışı: Ağ tamamen gürültüye (noise) boğuldu. Arduino hem tanımlanamayan ID sayacının (Watchdog) dolması hem de arabellekteki aşırı yüklenme (Buffer Overflow) nedeniyle saniyeler içinde Kernel Panic (while(1)) durumuna düşüp donanımsal olarak kilitlendi.
+
+Kayıt ve IDS Önemi: fuzzing_increase_mix.txt olarak kaydedildi. Bu log, modelin Fuzzing araçlarının tipik "tarama" (scanning) paternini tanıması için çok değişkenli (multi-variate) bir referans oldu.

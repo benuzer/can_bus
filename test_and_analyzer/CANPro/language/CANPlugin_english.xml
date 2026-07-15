@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<resource CompactMode="1" Langauage="English">
+	<string id="503" value="Char Show\nChar Show"/>
+	<string id="504" value="Send File\nSend File"/>
+	<string id="505" value="Bin Show\nBIN"/>
+	<string id="506" value="Dec Show\nDEC"/>
+	<string id="507" value="Hex Show\nHEX"/>
+	<string id="508" value="Send Data\nsend"/>
+	<string id="509" value="Trigger Setting\nTrigger Setting"/>
+	<string id="510" value="Alias Setting\nAlias"/>
+	<string id="511" value="Enable Trigger\nEnable Trigger"/>
+	<string id="512" value="No Show Send Frame\nHide"/>
+	<string id="5001" value="Index"/>
+	<string id="5002" value="Direction"/>
+	<string id="5003" value="Time Mark"/>
+	<string id="5004" value="Frame ID"/>
+	<string id="5005" value="Format"/>
+	<string id="5006" value="Type"/>
+	<string id="5007" value="DLC"/>
+	<string id="5008" value="Data"/>
+	<string id="5009" value="Alias"/>
+	<string id="5010" value="Status"/>
+	<string id="5011" value=" "/>
+	<string id="5012" value="When %s %s "/>
+	<string id="5013" value=" is %s,"/>
+	<string id="5014" value=", Alias is %s"/>
+	<string id="5015" value="BIN"/>
+	<string id="5016" value="DEC"/>
+	<string id="5017" value="HEX"/>
+	<string id="5018" value=" Row Text Color "/>
+	<string id="5019" value=" Hide"/>
+	<string id="5021" value="Standard Frame"/>
+	<string id="5022" value="Extern Frame"/>
+	<string id="5023" value="Data Frame"/>
+	<string id="5024" value="Remote Frame"/>
+	<string id="5025" value="AND: "/>
+	<string id="5026" value="Please select the item need  adding condition to"/>
+	<string id="5027" value="All the conditions in a filter item should be show or be hide"/>
+	<string id="5028" value="When Frame Data is refer to£¬The format of data in edit control is &quot;** FF AA 11 ** ** ** ** &quot;£¬this &quot;**&quot;express irrelevance £¬&quot;FF AA 11 &quot; Means that When second\third\fourth byte are 0xFF¡¢0xAA¡¢0x11, correlation data can be irrelevance bye; i.e. &quot;** FF ** 11 ** ** ** ** &quot; This way is mistake."/>
+	<string id="5029" value="All the conditions in a trigger item should be the same type"/>
+	<string id="5030" value=" "/>
+	<string id="5031" value=" "/>
+	<string id="5032" value="Normal Send"/>
+	<string id="5033" value="Single Send"/>
+	<string id="5034" value="Send &amp;Recive"/>
+	<string id="5035" value="Single Send &amp; Recive"/>
+	<string id="5036" value=" "/>
+	<string id="5037" value=" "/>
+	<string id="5038" value="NumsFrame"/>
+	<string id="5039" value="ID Increase"/>
+	<string id="5040" value="times"/>
+	<string id="5041" value="intervals (ms)"/>
+	<string id="5042" value=" "/>
+	<string id="5043" value="Yes"/>
+	<string id="5044" value="No"/>
+	<string id="5045" value=" "/>
+	<string id="5046" value="FrameID:0x%08X Fomart:%s type:%s DLC:0x%02X Data:%s NumOfFrame:%d"/>
+	<string id="5047" value="Stop Send"/>
+	<string id="5048" value="Send Now"/>
+	<string id="5049" value="Send"/>
+	<string id="5050" value="Recive"/>
+	<string id="5051" value=" "/>
+	<string id="5052" value=" "/>
+	<string id="5053" value="Halt Show"/>
+	<string id="5054" value="Send Data"/>
+	<string id="5055" value="-CAN- Trigger Send Data"/>
+	<string id="5056" value="The num of Frames in one send must be less than %d."/>
+	<string id="5057" value=" Hide"/>
+	<string id="5058" value=" Show"/>
+	<string id="5059" value="Data Increase"/>
+	<string id="5060" value="OK"/>
+	<string id="5061" value="The list is empty,the setting will remain"/>
+	<string id="5062" value="CHAR"/>
+	<string id="5063" value="failed to Open file"/>
+	<string id="5064" value="Cancel"/>
+	<string id="5065" value="Failed to Send"/>
+	<string id="5066" value="Be sending,you should stop sending before quit"/>
+	<string id="7109" value="Send Type"/>
+	<string id="7110" value="-CAN- Trigger Send File"/>
+	<string id="7111" value="Send File"/>
+	<string id="7112" value="Sending:"/>
+	<string id="7113" value="The Number of Files to be sended is:"/>
+	<string id="7114" value="Cancel Current"/>
+	<string id="7115" value="Cancel All"/>
+	<string id="7116" value=" Sending Completed"/>
+	<string id="7117" value="Send Parameter:"/>
+	<string id="7118" value="Type:"/>
+	<string id="7119" value="Num Of Frames:"/>
+	<string id="7120" value="Interval:"/>
+	<string id="7121" value="File Path:"/>
+	<string id="7122" value="Sending:"/>
+	<string id="7123" value="..."/>
+	<string id="7124" value="Common File"/>
+	<string id="7125" value="CAN Data File"/>
+	<string id="7126" value="It's a illegal can data file or It has been damaged "/>
+	<string id="7127" value="Failed during reading the file"/>
+	<string id="7128" value="File Type"/>
+	<string id="7129" value="Load the send list file failed"/>
+	<menu id="6108">
+		<menuitem caption="1">
+			<menuitem caption="Show Type">
+				<menuitem id="505" caption="BIN"/>
+				<menuitem id="506" caption="DEC"/>
+				<menuitem id="507" caption="HEX"/>
+				<menuitem id="503" caption="CHAR"/>
+			</menuitem>
+			<menuitem id="508" caption="Send Data"/>
+			<menuitem id="504" caption="Send File"/>
+			<menuitem id="510" caption="Alias Setting"/>
+			<menuitem/>
+			<menuitem id="509" caption="Trigger Setting"/>
+			<menuitem id="511" caption="Enable Trigger"/>
+			<menuitem id="512" caption="Hide Send Frame "/>
+		</menuitem>
+		<menuitem caption="2">
+			<menuitem id="502" caption="Send"/>
+		</menuitem>
+	</menu>
+	<dialog id="6003" fontsize="9" fontface="MS Sans Serif" style="1073741888" position="0, 0, 466, 311" dialogex="1">
+		<control caption="List Color" position="7, 9, 42, 8"/>
+		<control style="1342177296" position="51, 13, 407, 1"/>
+		<control caption="Background:" position="19, 27, 43, 8"/>
+		<control id="6001" class="BUTTON" style="1342242816" position="63, 22, 380, 16"/>
+		<control class="BUTTON" caption=" Every Column Text Color " style="1342177287" position="7, 44, 451, 65"/>
+		<control id="6005" class="BUTTON" caption="Index" style="1342242816" position="19, 60, 64, 20"/>
+		<control id="6007" class="BUTTON" caption="Direction" style="1342242816" position="109, 60, 64, 20"/>
+		<control id="6008" class="BUTTON" caption="Time Mark" style="1342242816" position="199, 60, 64, 20"/>
+		<control id="6105" class="BUTTON" caption="Frame ID" style="1342242816" position="19, 83, 64, 20"/>
+		<control id="6106" class="BUTTON" caption="Format" style="1342242816" position="109, 83, 64, 20"/>
+		<control id="6107" class="BUTTON" caption="Frame Type" style="1342242816" position="199, 83, 64, 20"/>
+		<control id="6109" class="BUTTON" caption="DLC" style="1342242816" position="289, 83, 64, 20"/>
+		<control id="6111" class="BUTTON" caption="Frame Data" style="1342242816" position="379, 83, 64, 20"/>
+		<control class="BUTTON" caption=" Row Text Color(HEX) " style="1342177287" position="7, 122, 452, 73"/>
+		<control caption="When" position="17, 138, 17, 8"/>
+		<control id="6011" class="COMBOBOX" style="1344339971" position="35, 134, 56, 157"/>
+		<control caption="is" position="94, 138, 9, 8"/>
+		<control id="6012" class="EDIT" style="1350631552" position="17, 152, 104, 14"/>
+		<control caption="Text Color" position="18, 174, 42, 8"/>
+		<control id="6014" class="BUTTON" caption="Color" style="1342242816" position="60, 169, 40, 20"/>
+		<control id="6015" class="BUTTON" caption="Add-&gt;" style="1342242816" position="187, 139, 40, 16"/>
+		<control id="6016" class="LISTBOX" style="1352730961" position="237, 133, 206, 55"/>
+		<control id="6017" class="BUTTON" caption="&lt;-Delete" style="1342242816" position="187, 166, 40, 16"/>
+		<control style="1342177288" position="175, 130, 1, 62"/>
+		<control class="BUTTON" caption="Show Filter(HEX) " style="1342177287" position="7, 198, 452, 73"/>
+		<control caption="When" position="17, 216, 17, 8"/>
+		<control id="6013" class="COMBOBOX" style="1344339971" position="35, 212, 56, 157"/>
+		<control caption="is" position="94, 216, 9, 8"/>
+		<control id="6018" class="EDIT" style="1350631552" position="17, 230, 104, 14"/>
+		<control caption="," position="124, 234, 9, 8"/>
+		<control id="6020" class="BUTTON" caption="Add-&gt;" style="1342242816" position="187, 218, 40, 16"/>
+		<control id="6021" class="LISTBOX" style="1353779457" position="237, 212, 206, 55"/>
+		<control id="6022" class="BUTTON" caption="&lt;-Delete" style="1342242816" position="187, 244, 40, 16"/>
+		<control style="1342177288" position="175, 208, 1, 62"/>
+		<control caption="Show Type:" position="17, 288, 40, 8"/>
+		<control id="6019" class="COMBOBOX" style="1344339971" position="58, 285, 52, 84"/>
+		<control id="6023" class="BUTTON" caption="Alias Setting" style="1342242816" position="122, 283, 72, 16"/>
+		<control id="6024" class="BUTTON" caption="Trigger Setting" style="1342242816" position="206, 283, 72, 16"/>
+		<control style="1342177297" position="116, 279, 1, 25"/>
+		<control style="1342177297" position="200, 279, 1, 25"/>
+		<control id="6036" class="BUTTON" caption="Hide Send Frame" style="1342242819" position="292, 287, 70, 10"/>
+		<control style="1342177297" position="284, 279, 1, 25"/>
+		<control id="6114" class="COMBOBOX" style="1075904515" position="17, 153, 80, 118"/>
+		<control id="6054" class="COMBOBOX" style="1075904515" position="18, 231, 80, 100"/>
+		<control style="1342177297" position="368, 281, 1, 23"/>
+		<control id="6065" class="BUTTON" caption="Advance Options" style="1342242816" position="17, 249, 72, 16"/>
+		<control caption=", Make" position="125, 155, 25, 8"/>
+		<control id="6100" class="BUTTON" caption="Advance Options" style="1342242816" position="103, 171, 68, 17"/>
+		<control id="6103" class="BUTTON" caption="Status" style="1342242816" position="289, 60, 64, 20"/>
+		<control id="6104" class="BUTTON" caption="Name" style="1342242816" position="379, 60, 64, 20"/>
+		<control id="6115" class="BUTTON" caption="Load Configure" style="1342242816" position="376, 283, 68, 16"/>
+		<control id="6117" class="COMBOBOX" style="1344339971" position="133, 230, 36, 76"/>
+		<control id="6122" class="BUTTON" caption="Add To Exist" style="1342242816" position="113, 249, 58, 16"/>
+	</dialog>
+	<dialog id="6004" caption="-CAN- Send Data" fontsize="9" fontface="MS Sans Serif" style="-2133917632" position="0, 0, 338, 331" dialogex="1">
+		<control id="6037" class="COMBOBOX" style="1344339971" position="52, 18, 62, 113"/>
+		<control id="6028" class="COMBOBOX" style="1344339971" position="148, 18, 71, 113"/>
+		<control id="6039" class="COMBOBOX" style="1344339971" position="260, 18, 62, 113"/>
+		<control id="6040" class="EDIT" style="1350631552" position="36, 38, 46, 14"/>
+		<control id="6041" class="EDIT" style="1350631552" position="125, 38, 19, 14"/>
+		<control id="6043" class="EDIT" style="1350631552" position="177, 38, 144, 14"/>
+		<control id="6046" class="EDIT" style="1350631552" position="65, 74, 50, 14"/>
+		<control id="6047" class="EDIT" style="1350631552" position="65, 92, 50, 14"/>
+		<control id="6048" class="BUTTON" caption="Send Now" style="1342242816" position="51, 111, 68, 17"/>
+		<control id="6015" class="BUTTON" caption="Add to List" style="1342242816" position="125, 111, 68, 17"/>
+		<control id="6049" class="SysListView32" caption="List1" style="1350635529" position="10, 166, 313, 134"/>
+		<control id="6027" class="BUTTON" caption="Delete Data" style="1342242816" position="14, 305, 56, 16"/>
+		<control id="6053" class="BUTTON" caption="History List" style="1342242816" position="78, 305, 55, 16"/>
+		<control id="6050" class="BUTTON" caption="Send" style="1342242816" position="183, 305, 46, 16"/>
+		<control id="6052" class="EDIT" style="1350631552" position="281, 306, 38, 14"/>
+		<control caption="Send Type:" position="12, 21, 40, 8"/>
+		<control id="5074" caption="Type:" position="126, 21, 21, 8"/>
+		<control id="5075" caption="Format:" position="231, 21, 28, 8"/>
+		<control caption="ID:0x" position="12, 41, 24, 8"/>
+		<control id="5076" caption="DLC:0x" position="99, 41, 24, 8"/>
+		<control id="5077" caption="Data:" position="156, 41, 20, 8"/>
+		<control caption="Num of Frame:" position="12, 77, 52, 8"/>
+		<control caption="Interval:" position="12, 95, 52, 8"/>
+		<control caption="ms" position="118, 96, 9, 8"/>
+		<control id="5080" class="BUTTON" caption="List Send" style="1342177287" position="4, 139, 327, 186"/>
+		<control id="5081" caption="Send Times:" position="236, 309, 45, 8"/>
+		<control id="6060" class="BUTTON" caption="Increase Frame ID" style="1342242819" position="12, 57, 88, 10"/>
+		<control id="5078" caption="Send Times:" position="156, 76, 48, 8"/>
+		<control id="6061" class="EDIT" style="1350631552" position="201, 73, 52, 14"/>
+		<control id="6118" class="BUTTON" caption="Up" style="1342242816" position="141, 149, 28, 14"/>
+		<control id="6119" class="BUTTON" caption="Down" style="1342242816" position="175, 149, 28, 14"/>
+		<control id="5079" caption="Alias(optional):" position="156, 95, 63, 8"/>
+		<control id="6120" class="EDIT" style="1350631552" position="220, 92, 102, 14"/>
+		<control id="6062" class="BUTTON" caption="Increase Frame Data" style="1342242819" position="156, 57, 88, 10"/>
+		<control id="5069" class="BUTTON" caption="Save as..." style="1342242816" position="210, 149, 53, 14"/>
+		<control id="5070" class="BUTTON" caption="Load from..." style="1342242816" position="268, 149, 53, 14"/>
+		<control id="5073" class="BUTTON" caption="Frame Send" style="1342177287" position="4, 6, 327, 128"/>
+		<control id="5082" class="BUTTON" caption="Update List Item" style="1342242816" position="201, 111, 78, 17"/>
+	</dialog>
+	<dialog id="6006" caption="-CAN- Receiving Trigger" fontsize="9" fontface="MS Sans Serif" style="-2133917632" position="0, 0, 314, 191">
+		<control id="6028" class="COMBOBOX" style="1344339971" position="27, 8, 56, 157"/>
+		<control id="6029" class="EDIT" style="1350631552" position="98, 7, 117, 14"/>
+		<control id="6025" class="BUTTON" caption="Add New" style="1342242816" position="191, 30, 50, 14"/>
+		<control id="6027" class="BUTTON" caption="Delete" style="1342242816" position="248, 30, 50, 14"/>
+		<control caption="when" position="8, 11, 17, 8"/>
+		<control caption="is" position="88, 11, 9, 8"/>
+		<control caption="" position="215, 11, 9, 8"/>
+		<control id="6030" class="COMBOBOX" style="1344339971" position="226, 8, 81, 149"/>
+		<control id="6031" class="LISTBOX" style="1353779459" position="7, 47, 298, 117"/>
+		<control id="6057" class="BUTTON" caption="OK" style="1342242816" position="195, 170, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="256, 170, 50, 16"/>
+		<control id="6055" class="COMBOBOX" style="1075904515" position="93, 8, 80, 157"/>
+		<control id="5072" caption="Note: The Format of Data is Hex" position="9, 169, 130, 8"/>
+		<control id="6123" class="BUTTON" caption="Add To Exist" style="1342242816" position="115, 30, 69, 14"/>
+	</dialog>
+	<dialog id="6009" caption="-CAN- Alias Setting" fontsize="9" fontface="MS Sans Serif" style="-2133917632" position="0, 0, 338, 193">
+		<control id="6028" class="COMBOBOX" style="1344339971" position="28, 8, 56, 157"/>
+		<control id="6029" class="EDIT" style="1350631552" position="97, 7, 117, 14"/>
+		<control id="6113" class="EDIT" style="1350631552" position="248, 7, 79, 14"/>
+		<control id="6025" class="BUTTON" caption="Add" style="1342242816" position="209, 30, 50, 14"/>
+		<control id="6027" class="BUTTON" caption="Delete" style="1342242816" position="268, 30, 50, 14"/>
+		<control id="6026" class="LISTBOX" style="1352730883" position="8, 47, 320, 120"/>
+		<control caption="When" position="9, 11, 16, 8"/>
+		<control caption="is" position="87, 11, 8, 8"/>
+		<control caption=",Alias is:" position="219, 11, 27, 8"/>
+		<control id="6055" class="COMBOBOX" style="1075904515" position="97, 7, 80, 152"/>
+		<control id="6057" class="BUTTON" caption="OK" style="1342242816" position="217, 172, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="278, 172, 50, 16"/>
+		<control id="5072" caption="Note: The Format of Data is Hex" position="9, 171, 133, 8"/>
+	</dialog>
+	<dialog id="6110" caption="Advance Filter Setting" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 419, 123">
+		<control id="1" class="BUTTON" caption="Add New" style="1342242817" position="113, 100, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Close" style="1342242816" position="238, 100, 50, 16"/>
+		<control caption="Frame ID(Bin)" position="7, 10, 52, 8"/>
+		<control style="1342177296" position="64, 14, 348, 1"/>
+		<control id="6097" class="BUTTON" style="1073741831" position="8, 24, 404, 13"/>
+		<control caption="High Bit" position="40, 41, 50, 8"/>
+		<control caption="Low Bit" position="350, 41, 50, 8"/>
+		<control id="6102" class="BUTTON" caption="Right Align" style="1342242819" position="264, 41, 55, 10"/>
+		<control id="6096" class="BUTTON" caption="Clear" style="1342242816" position="56, 100, 50, 16"/>
+		<control caption="Note:&quot;Standard Frame&quot;Check box is disable for External ID, If bit box display&quot;X&quot;the  bit is no care, i.e. &quot;XXX XXXXX111&quot;, means that only three low bit is &quot;111&quot;would show or hide." position="48, 66, 316, 34"/>
+		<control id="6098" class="BUTTON" caption="Standard Frame" style="1342242819" position="164, 41, 70, 10"/>
+		<control class="BUTTON" style="1342177287" position="37, 55, 333, 36"/>
+		<control id="6099" class="BUTTON" caption="Evaluator" style="1342242816" position="295, 100, 50, 16"/>
+		<control id="6101" class="BUTTON" caption="Color" style="1073807360" position="79, 39, 50, 13"/>
+		<control id="6125" class="BUTTON" caption="Add To Exist" style="1342242816" position="170, 100, 61, 16"/>
+	</dialog>
+	<dialog id="6112" caption="Advance Color Setting of Row Text " fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 419, 149">
+		<control id="6098" class="BUTTON" caption="Standard Frame" style="1342242819" position="163, 41, 70, 10"/>
+		<control id="6102" class="BUTTON" caption="Right Align" style="1342242819" position="244, 41, 60, 10"/>
+		<control id="6101" class="BUTTON" caption="Color" style="1342242816" position="260, 58, 50, 20"/>
+		<control id="1" class="BUTTON" caption="Add" style="1342242817" position="136, 126, 50, 16"/>
+		<control id="6096" class="BUTTON" caption="Clear" style="1342242816" position="76, 126, 50, 16"/>
+		<control id="6099" class="BUTTON" caption="Evaluator" style="1342242816" position="271, 126, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Close" style="1342242816" position="196, 126, 50, 16"/>
+		<control caption="Frame ID(Bin)" position="7, 10, 52, 8"/>
+		<control style="1342177296" position="64, 14, 348, 1"/>
+		<control id="6097" class="BUTTON" style="1073741831" position="8, 24, 404, 13"/>
+		<control caption="Hight Bit" position="40, 41, 50, 8"/>
+		<control caption="Low Bit" position="350, 41, 50, 8"/>
+		<control caption="Note:&quot;Standard Frame&quot;Check box is disable for External ID, If bit box display&quot;X&quot;the  bit is no care, i.e. &quot;XXX XXXXX111&quot;, means that only three low bit is &quot;111&quot; color text would show in button." position="55, 88, 305, 28"/>
+		<control class="BUTTON" style="1342177287" position="50, 77, 313, 40"/>
+		<control caption="While upper condition is ture ,The color of text is:" position="50, 65, 210, 8"/>
+	</dialog>
+	<dialog id="6502" caption="Import Configuration" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 141, 67">
+		<control id="1" class="BUTTON" caption="OK" style="1342242817" position="19, 40, 48, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="74, 40, 48, 16"/>
+		<control id="6121" caption="Import" position="7, 17, 25, 8"/>
+		<control id="6116" class="COMBOBOX" style="1344339971" position="33, 14, 45, 148"/>
+		<control caption="Configuration" position="82, 17, 60, 8"/>
+	</dialog>
+	<dialog id="6506" caption="-CAN-Send File" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 248, 168">
+		<control id="6050" class="BUTTON" caption="Send" style="1342242817" position="195, 145, 46, 16"/>
+		<control id="6132" caption="File Path:" position="10, 112, 58, 8"/>
+		<control id="6127" class="EDIT" style="1350631552" position="10, 122, 173, 14"/>
+		<control id="6128" class="BUTTON" caption="Select..." style="1342242816" position="197, 122, 42, 14"/>
+		<control id="6129" class="msctls_progress32" caption="Progress1" style="1350565888" position="10, 149, 173, 14"/>
+		<control id="6121" caption="Sending:" position="10, 140, 56, 8"/>
+		<control id="6037" class="COMBOBOX" style="1344339971" position="52, 35, 62, 113"/>
+		<control id="6028" class="COMBOBOX" style="1344339971" position="164, 35, 71, 113"/>
+		<control id="6040" class="EDIT" style="1350631552" position="57, 52, 46, 14"/>
+		<control id="6061" class="EDIT" style="1350631552" position="68, 70, 54, 13"/>
+		<control id="6131" class="EDIT" style="1350631552" position="52, 89, 54, 13"/>
+		<control id="6136" caption="Send Type:" position="11, 38, 40, 8"/>
+		<control id="6137" caption="Frame Type:" position="120, 38, 44, 8"/>
+		<control id="6135" caption="Frame ID:0x" position="11, 56, 44, 8"/>
+		<control id="6134" caption="Num Of Frames:" position="11, 73, 56, 8"/>
+		<control id="6133" caption="Interval:" position="11, 92, 38, 8"/>
+		<control caption="ms" position="107, 93, 9, 8"/>
+		<control id="6138" class="BUTTON" caption="Send Parameter:" style="1342177287" position="5, 6, 234, 101"/>
+		<control id="6038" class="COMBOBOX" style="1344339971" position="52, 17, 74, 113"/>
+		<control id="6139" caption="File Type:" position="11, 20, 40, 8"/>
+	</dialog>
+	<dialog id="6507" caption="-CAN- Trigger Send File" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 244, 77">
+		<control id="6121" caption="Sending:" position="8, 13, 221, 8"/>
+		<control id="6129" class="msctls_progress32" caption="Progress1" style="1350565888" position="8, 24, 226, 14"/>
+		<control id="5067" class="BUTTON" caption="Cancel Current" style="1342242816" position="107, 55, 60, 16"/>
+		<control id="6132" caption="The Number of files to be Sended is :" position="8, 42, 197, 8"/>
+		<control id="5068" class="BUTTON" caption="Cancel All" style="1342242816" position="174, 55, 60, 16"/>
+	</dialog>
+</resource>

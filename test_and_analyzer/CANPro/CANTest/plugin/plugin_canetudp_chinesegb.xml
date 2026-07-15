@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<resource CompactMode="1" Langauage="Chinese (PRC)">
+	<string id="1" value="没有板载信息。"/>
+	<string id="2" value="没有相关操作。"/>
+	<string id="3" value="请选择设备索引号。"/>
+	<dialog id="2000" caption="选择设备 - CANET-UDP" fontsize="9" fontface="宋体" style="-1865940800" position="0, 0, 204, 142">
+		<control caption="本机端口:" position="95, 10, 36, 8"/>
+		<control id="2012" class="EDIT" style="1350631552" position="135, 7, 46, 13"/>
+		<control caption="CANET-UDP IP地址:" style="1342308354" position="21, 40, 69, 8"/>
+		<control id="2013" class="SysIPAddress32" caption="IPAddress1" style="1342242816" position="93, 37, 91, 13"/>
+		<control caption="CANET-UDP 工作端口:" style="1342308354" position="7, 59, 83, 8"/>
+		<control id="2014" class="EDIT" style="1350631552" position="93, 56, 91, 13"/>
+		<control class="BUTTON" caption=" CANET-UDP 设置 " style="1342177287" position="5, 27, 191, 49"/>
+		<control caption="设备索引号:" position="6, 10, 47, 8"/>
+		<control id="2015" class="COMBOBOX" style="1344340227" position="54, 7, 28, 191"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="45, 87, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="108, 87, 50, 16"/>
+		<control id="1004" class="BUTTON" caption="确定并启动CAN" style="1342242816" position="45, 111, 113, 16"/>
+	</dialog>
+</resource>

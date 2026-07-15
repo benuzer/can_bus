@@ -1,0 +1,185 @@
+<dlgcmd0>
+    <colBack value="16777215" />
+    <bShowType value="16" />
+    <bShowSend value="1" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+</dlgcmd0>
+<dlgcmd1>
+    <colBack value="16777215" />
+    <bShowType value="16" />
+    <bShowSend value="1" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+</dlgcmd1>
+<dlgcmd2>
+    <colBack value="16777215" />
+    <bShowType value="16" />
+    <bShowSend value="1" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+</dlgcmd2>
+<dlgcmd3>
+    <colBack value="16777215" />
+    <bShowType value="16" />
+    <bShowSend value="1" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+</dlgcmd3>
+<dlgcmd4>
+    <colBack value="16777215" />
+    <bShowType value="16" />
+    <bShowSend value="1" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+</dlgcmd4>
+<dlgcmd5>
+    <colBack value="16777215" />
+    <bShowType value="16" />
+    <bShowSend value="1" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+</dlgcmd5>
+<dlgcmd6>
+    <colBack value="16777215" />
+    <bShowType value="16" />
+    <bShowSend value="1" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+</dlgcmd6>
+<dlgcmd7>
+    <colBack value="16777215" />
+    <bShowType value="16" />
+    <bShowSend value="1" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+    <colFront value="0" />
+</dlgcmd7>
+<dlgFrameName0 dlgpos="0" />
+<dlgFrameName1 dlgpos="0" />
+<dlgFrameName2 dlgpos="0" />
+<dlgFrameName3 dlgpos="0" />
+<dlgFrameName4 dlgpos="0" />
+<dlgFrameName5 dlgpos="0" />
+<dlgFrameName6 dlgpos="0" />
+<dlgFrameName7 dlgpos="0" />
+<CANIndMap 0="0" 1="1" 2="0" 3="0" 4="0" 5="0" 6="0" 7="0" />
+<dlgSend0 dlgpos="17170665">
+    <SendSingle m_dwCycles="10">
+        <tagSendUint iInterval="10" iTimes="1" len="1" bIncreaseID="0" bIncreaseData="0" obj="0100000000000000EB000000081122334455667788000000" />
+    </SendSingle>
+    <SendList m_dwCycles="1" />
+    <SendHistory />
+</dlgSend0>
+<dlgSend1 dlgpos="-1">
+    <SendSingle m_dwCycles="10">
+        <tagSendUint iInterval="10" iTimes="1" len="1" bIncreaseID="0" bIncreaseData="0" obj="0100000000000000EB000000081122334455667788000000" />
+    </SendSingle>
+    <SendList m_dwCycles="0" />
+    <SendHistory />
+</dlgSend1>
+<dlgSend2 dlgpos="-1">
+    <SendSingle m_dwCycles="10">
+        <tagSendUint iInterval="10" iTimes="1" len="1" bIncreaseID="0" bIncreaseData="0" obj="010000000000000000000000081122334455667788000000" />
+    </SendSingle>
+    <SendList m_dwCycles="0" />
+    <SendHistory />
+</dlgSend2>
+<dlgSend3 dlgpos="-1">
+    <SendSingle m_dwCycles="10">
+        <tagSendUint iInterval="10" iTimes="1" len="1" bIncreaseID="0" bIncreaseData="0" obj="010000003D0000003E000000081122334455667788652C64" />
+    </SendSingle>
+    <SendList m_dwCycles="0" />
+    <SendHistory />
+</dlgSend3>
+<dlgSend4 dlgpos="-1">
+    <SendSingle m_dwCycles="10">
+        <tagSendUint iInterval="10" iTimes="1" len="1" bIncreaseID="0" bIncreaseData="0" obj="0100000000000000EB000000081122334455667788000000" />
+    </SendSingle>
+    <SendList m_dwCycles="0" />
+    <SendHistory />
+</dlgSend4>
+<dlgSend5 dlgpos="-1">
+    <SendSingle m_dwCycles="10">
+        <tagSendUint iInterval="10" iTimes="1" len="1" bIncreaseID="0" bIncreaseData="0" obj="010000003D0000003E000000081122334455667788652C64" />
+    </SendSingle>
+    <SendList m_dwCycles="0" />
+    <SendHistory />
+</dlgSend5>
+<dlgSend6 dlgpos="-1">
+    <SendSingle m_dwCycles="10">
+        <tagSendUint iInterval="10" iTimes="1" len="1" bIncreaseID="0" bIncreaseData="0" obj="010000000000000000000000081122334455667788000000" />
+    </SendSingle>
+    <SendList m_dwCycles="0" />
+    <SendHistory />
+</dlgSend6>
+<dlgSend7 dlgpos="-1">
+    <SendSingle m_dwCycles="10">
+        <tagSendUint iInterval="10" iTimes="1" len="1" bIncreaseID="0" bIncreaseData="0" obj="0100000000000000EB000000081122334455667788000000" />
+    </SendSingle>
+    <SendList m_dwCycles="0" />
+    <SendHistory />
+</dlgSend7>

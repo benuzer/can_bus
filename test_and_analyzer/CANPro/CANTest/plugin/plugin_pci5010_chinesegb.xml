@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="gb2312"?>
+<resource CompactMode="1" Language="Chinese (PRC)" LANGID="2052">
+	<string id="1" value="没有板载信息。"/>
+	<string id="2" value="没有相关操作。"/>
+	<string id="3" value="请选择设备索引号。"/>
+	<string id="4" value="读取失败。"/>
+	<string id="5" value="中断记录: 0x%02x\nCAN控制器模式寄存器: 0x%02x\nCAN控制器状态寄存器: 0x%02x\nCAN控制器仲裁丢失寄存器: 0x%02x\nCAN控制器错误寄存器: 0x%02x\nCAN控制器错误警告限制寄存器: 0x%02x\nCAN控制器接收错误寄存器: 0x%02x\nCAN控制器发送错误寄存器: 0x%02x"/>
+	<string id="6" value="此设备为非智能卡，没有板载错误信息。"/>
+	<string id="7" value="当前错误码: 0x%02x\n"/>
+	<string id="8" value="错误标识数据: 0x%02x 0x%02x 0x%02x "/>
+	<string id="9" value="错误标识数据: 0x%02x "/>
+	<string id="10" value="错误标识数据: 无"/>
+	<string id="11" value="请输入数据"/>
+	<string id="12" value="当前CAN控制器的地址为0x%02x的控制寄存器的状态值为: 0x%02x"/>
+	<string id="13" value="写入失败"/>
+	<string id="14" value="写入成功"/>
+	<string id="15" value="通道"/>
+	<string id="16" value="类型"/>
+	<string id="17" value="起始ID"/>
+	<string id="18" value="结束ID"/>
+	<string id="19" value="顺序"/>
+	<string id="20" value="错误码"/>
+	<string id="21" value="错误寄存器值"/>
+	<string id="22" value="CAN控制器内部FIFO溢出"/>
+	<string id="23" value="CAN控制器错误报警"/>
+	<string id="24" value="CAN控制器消极错误"/>
+	<string id="25" value="CAN控制器仲裁丢失"/>
+	<string id="26" value="CAN控制器总线错误"/>
+	<string id="27" value="CAN控制器总线关闭"/>
+	<string id="28" value="标准帧明确ID格式"/>
+	<string id="29" value="标准帧组ID格式"/>
+	<string id="30" value="扩展帧明确ID格式"/>
+	<string id="31" value="扩展帧组ID格式"/>
+	<string id="32" value="正常模式"/>
+	<string id="33" value="只听模式"/>
+	<string id="34" value="设备详细信息如下:\n  硬件版本号: %s\n  固件版本号: %s\n  驱动程序版本号: %s\n  接口库版本号: %s\n  板卡使用中断号: %s\n  CAN总路数: %s\n  板卡序列号: %s\n  硬件类型: %s"/>
+	<string id="35" value="选择设备 - %s"/>
+	<dialog id="149" caption="参数设置" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 280, 343">
+		<control class="BUTTON" caption="错误信息" style="1342177287" position="4, 4, 272, 300"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242816" position="108, 316, 60, 16"/>
+		<control id="1001" class="BUTTON" caption="获取错误信息" style="1342242816" position="108, 280, 62, 16"/>
+		<control id="1002" class="SysListView32" caption="List1" style="1350631425" position="12, 16, 256, 252"/>
+	</dialog>
+	<dialog id="1000" caption="滤波设置" fontsize="9" fontface="新宋体" style="-2134376256" position="0, 0, 240, 279">
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="67, 252, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="123, 252, 50, 16"/>
+		<control class="BUTTON" caption="参数" style="1342177287" position="4, 4, 232, 236"/>
+		<control id="1003" class="SysListView32" caption="List1" style="1350631437" position="12, 16, 216, 148"/>
+		<control caption="通道" position="11, 197, 36, 8"/>
+		<control caption="模式" position="12, 180, 36, 8"/>
+		<control caption="起始帧ID: 0x" position="136, 176, 49, 8"/>
+		<control caption="结束帧ID: 0x" position="136, 196, 49, 8"/>
+		<control id="1004" class="BUTTON" caption="添加" style="1342242816" position="124, 216, 50, 16"/>
+		<control id="1005" class="BUTTON" caption="删除" style="1342242816" position="180, 216, 50, 16"/>
+		<control id="1006" class="BUTTON" caption="开启滤波" style="1342242819" position="12, 220, 96, 10"/>
+		<control id="1007" class="COMBOBOX" style="1344340227" position="47, 193, 84, 64"/>
+		<control id="1008" class="COMBOBOX" style="1344340227" position="48, 176, 84, 64"/>
+		<control id="1009" class="EDIT" style="1350631552" position="188, 172, 40, 14"/>
+		<control id="1010" class="EDIT" style="1350631552" position="188, 192, 40, 14"/>
+	</dialog>
+	<dialog id="2000" caption="打开设备 - PCI-5010-U" fontsize="9" fontface="宋体" style="-1865940800" position="0, 0, 247, 184">
+		<control caption="设备索引号:" position="12, 24, 47, 8"/>
+		<control id="2015" class="COMBOBOX" style="1344340227" position="63, 21, 48, 191"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="67, 135, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="130, 135, 50, 16"/>
+		<control id="1004" class="BUTTON" caption="确定并启动CAN" style="1342242816" position="67, 158, 113, 16"/>
+		<control id="1011" class="COMBOBOX" style="1344340227" position="177, 21, 48, 64"/>
+		<control caption="第几路CAN" position="127, 23, 44, 8"/>
+		<control class="BUTTON" caption="设备参数" style="1342177287" position="4, 4, 232, 56"/>
+		<control class="BUTTON" caption="初始化参数" style="1342177287" position="4, 64, 231, 58"/>
+		<control caption="波特率" position="12, 80, 52, 8"/>
+		<control caption="模式" position="130, 80, 17, 8"/>
+		<control caption="波特率寄存器值: 0x" position="12, 100, 84, 8"/>
+		<control id="1012" class="COMBOBOX" style="1344340227" position="64, 76, 48, 120"/>
+		<control id="1013" class="COMBOBOX" style="1344340227" position="177, 76, 48, 64"/>
+		<control id="1014" class="EDIT" style="1350631552" position="104, 97, 44, 14"/>
+		<control id="1015" class="BUTTON" caption="自定义波特率" style="1342242819" position="164, 100, 62, 11"/>
+		<control id="2002" class="BUTTON" caption="选择所有CAN" style="1342242819" position="164, 41, 62, 11"/>
+	</dialog>
+</resource>

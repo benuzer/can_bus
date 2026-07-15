@@ -1,0 +1,128 @@
+#############################################
+##      Prototype CAN Bus data             ##
+#############################################
+
+Description:
+This folder contains various datasets captured from a home-made CAN bus prototype.
+The prototype consists in a VW instrument cluster, 2 Arduino boards with CAN bus shields and a joystick.
+One of the two ECUs is programmed to be a 'legitimate' and sends certain messages regularly. In addtion it receives inputs from the joystick: the joystick has been programmed to replicate a vehicle's throttle: when pushed forward, it sends CAN messages related to the speedometer, and one can see the speed displayed increasing, until the user releases the joystick.
+The other ECU has been programmed to act as a 'compromised' ECU, and launches certain attacks on the CAN bus.
+
+First we captured the normal data (see section Normal data) by connecting a CAN-to-USB interface (CANtact) to the prototype. The data is captured with the tool candump from the canutil tool suite.
+Then we programmed the compromised ECU to launch attacks (Denial of Service and Speedometer spoofing, see below the section Attack data).
+
+This collection of datasets is made for research purposes in the field of Intrusion Detection Systems for CAN bus.
+
+
+#############################################
+Normal data
+#############################################
+
+While capturing the traffic, a user is using the joystick to replicate the behavior of a driving car, i.e., the speedometer showing a speed increasing and decreasing at various moments (similar to a car driving in urban environment).
+
+full_data_capture.log: This represents an entire data capture.
+Duration: 271.42 seconds (+/- 4.5 minutes)
+Number of packets captured: 100292
+Number of unique CAN IDs: 17
+
+	data_capture_70.log: This represents the first 70% of the full_data_capture.log file, for training purposes
+	Duration: 189 seconds (+/- 3.15 minutes)
+	Number of packets captured: 70205
+	Number of unique CAN IDs: 17
+
+	data_capture_30.log: This represents the remaining 30% of the full_data_capture.log file, for testing purposes
+	Duration: 82 seconds (+/- 1.4 minutes)
+	Number of packets captured: 30087
+	Number of unique CAN IDs: 17
+
+
+training.log: Capture of data on the prototype for training purposes
+Duration: 211.60 seconds (+/- 3.5 minutes)
+Number of packets: 343647
+Number of unique CAN IDs: 17
+
+testing.log: Capture of data on the prototype for testing purposes
+Duration: 82.08 seconds (+/- 1.3 minutes)
+Number of packets: 28993
+Number of unique CAN IDs: 17
+
+
+
+#############################################
+Attack data
+#############################################
+
+diagnostic.log:
+The attack consists in injecting 10 messages with CAN ID between the values '700' and '7FF', as described in Woo's paper*.
+(*S. Woo et al., “A Practical Wireless Attack on the Connected Car and Security Protocol for In-Vehicle CAN,” IEEE Transactions on Intelligent Transportation Systems, 2015)
+Packets were manually added to the testing file.
+Injected packets:
+(1531471708.764000) can0 760#0000000000000000
+(1531471711.325000) can0 760#0000000000000000
+(1531471714.178000) can0 760#0000000000000000 
+(1531471719.178000) can0 760#0000000000000000 
+(1531471723.491000) can0 7E0#0000000000000000
+(1531471726.272000) can0 7E0#0000000000000000
+(1531471732.164000) can0 7E0#0000000000000000
+(1531471742.157000) can0 726#0000000000000000
+(1531471745.813000) can0 726#0000000000000000
+(1531471750.497000) can0 726#0000000000000000
+
+
+dosattack.log:
+The attack consists in injecting messages with CAN ID '000' (highest priority) for 10 seconds.
+Format of the packets injected: 000#0000000000000000
+Total number of packet injected: 40037
+Start of attack: line 10935
+First packet : (1531471730.001003) can0 000#0000000000000000
+End of attack: line 50970
+Last packet : (1531471740.000841) can0 000#0000000000000000
+
+
+fuzzing_canid.log:
+The attack consists in injecting a total of 10 messages with CAN ID values that are not part of the legitimate values (i.e., CAN ID values not seen in normal traffic)
+Packets were manually added to the testing file.
+Injected packets:
+(1531471721.104000) can0 111#0000000000000000
+(1531471725.957000) can0 111#0000000000000000 
+(1531471729.136000) can0 111#0000000000000000
+(1531471732.729000) can0 222#0000000000000000 
+(1531471736.661000) can0 222#0000000000000000
+(1531471739.468000) can0 222#0000000000000000 
+(1531471743.108500) can0 333#0000000000000000 
+(1531471747.768000) can0 333#0000000000000000
+(1531471754.003000) can0 333#0000000000000000
+(1531471765.317000) can0 444#0000000000000000
+
+
+fuzzing_payload.log:
+The attack consists in modifying manually the payload of 10 messages from CAN ID '5A0' to a payload value not used in legitimate traffic.
+This attack does not involve injecting new packets.
+Packets with modified payload:
+(1531471730.006298) can0 5A0#FFFFFFFFFFFFFFFF
+(1531471730.024026) can0 5A0#FFFFFFFFFFFFFFFF
+(1531471730.043042) can0 5A0#FFFFFFFFFFFFFFFF
+(1531471730.136843) can0 5A0#FFFFFFFFFFFFFFFF
+(1531471730.155502) can0 5A0#FFFFFFFFFFFFFFFF
+(1531471730.174189) can0 5A0#FFFFFFFFFFFFFFFF
+(1531471730.211420) can0 5A0#FFFFFFFFFFFFFFFF
+(1531471730.266484) can0 5A0#FFFFFFFFFFFFFFFF
+(1531471730.286073) can0 5A0#FFFFFFFFFFFFFFFF
+(1531471730.303735) can0 5A0#FFFFFFFFFFFFFFFF
+
+
+spoofing_speedometer.log:
+This attack consists in programming the attacking ECU to inject the message responsible for the speed displayed on the instrument cluster.
+We arbitrarily choose the attack to set the needle to 220 Km/h.
+This value is encoded in the payload as required by the VW instrument cluster, so that it can process the packet and display the spoofed value.
+Start of attack: line 53966
+First packet of attack: (1531321812.221116) can0 5A0#01807E0000000000
+End of attack: line 76682
+Last packet of attack (1531321822.214643) can0 5A0#01807E0000000000
+
+suspension.log:
+This attack consists in the deletion of messages with CAN ID '5A0' over a period of 10 seconds.
+Packets were manually deleted from the testing file.
+Start of attack: (1531471729.986810) can0 5A0#01800F0000000000
+End of attack: (1531471740.003056) can0 5A0#0180000000000000
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<resource CompactMode="1" Langauage="English">
+	<string id="1" value="No information on board."/>
+	<string id="2" value="No Operation."/>
+	<string id="3" value="Please Select the Device Index."/>
+	<string id="4" value="Read Failed."/>
+	<string id="5" value="Interrupt: 0x%02x\nCAN Mode Register: 0x%02x\nCAN Status Register: 0x%02x\nCAN Arbitration Lost Capture Register: 0x%02x\nCAN Error Code Capture Register: 0x%02x\nCAN Error Warning Limit Register: 0x%02x\nCAN Rx Error Counter Register: 0x%02x\nCAN Tx Error Counter Register: 0x%02x"/>
+	<string id="6" value="This device has no information on board."/>
+	<string id="7" value="Error Code: 0x%02x\n"/>
+	<string id="8" value="Error Data: 0x%02x 0x%02x 0x%02x "/>
+	<string id="9" value="Error Data: 0x%02x "/>
+	<string id="10" value="Error Data: None"/>
+	<string id="11" value="Please input data."/>
+	<string id="12" value="The register's address: 0x%02x   Value: 0x%02x"/>
+	<string id="13" value="Write Failed."/>
+	<string id="14" value="Write Failed."/>
+	<dialog id="149" caption="Device Operation" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 210, 110">
+		<control id="3002" class="BUTTON" caption="Read CAN Control Status" style="1342242816" position="16, 10, 79, 16"/>
+		<control id="3003" class="BUTTON" caption="Read Error Information" style="1342242816" position="113, 9, 71, 16"/>
+		<control id="2007" class="BUTTON" caption="Read CAN Register" style="1342242816" position="16, 36, 101, 16"/>
+		<control caption="Addr.:" position="126, 41, 21, 8"/>
+		<control id="2008" class="EDIT" style="1350631552" position="148, 37, 40, 13"/>
+		<control class="BUTTON" style="1342177287" position="10, 28, 182, 28"/>
+		<control id="2016" class="BUTTON" caption="Write" style="1342242816" position="141, 76, 32, 16"/>
+		<control caption="Value:" position="85, 81, 21, 8"/>
+		<control id="2017" class="EDIT" style="1350631552" position="111, 77, 22, 13"/>
+		<control class="BUTTON" caption="Write CAN Register" style="1342177287" position="21, 65, 157, 32"/>
+		<control caption="Addr.:" position="29, 81, 21, 8"/>
+		<control id="2018" class="EDIT" style="1350631552" position="55, 77, 22, 13"/>
+	</dialog>
+</resource>

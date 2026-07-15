@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="gb2312"?>
+<resource CompactMode="1" Language="Chinese (PRC)" LANGID="2052">
+	<string id="1200" value="没有相关操作。"/>
+	<string id="1201" value="顺序"/>
+	<string id="1202" value="错误码"/>
+	<string id="1203" value="错误寄存器值"/>
+	<string id="1204" value="CAN控制器内部FIFO溢出"/>
+	<string id="1205" value="CAN控制器错误报警"/>
+	<string id="1206" value="CAN控制器消极错误"/>
+	<string id="1207" value="CAN控制器仲裁丢失"/>
+	<string id="1208" value="CAN控制器总线错误"/>
+	<string id="1209" value="CAN控制器总线关闭"/>
+	<string id="1210" value="正常模式"/>
+	<string id="1211" value="只听模式"/>
+	<string id="1212" value="此设备为非智能卡，没有板载信息。"/>
+	<string id="1213" value="打开设备错误\n"/>
+	<string id="1214" value="接收所有数据"/>
+	<string id="1215" value="标准帧 单滤波 (设定接收单个ID)"/>
+	<string id="1216" value="扩展帧 单滤波 (设定接收单个ID)"/>
+	<string id="1217" value="标准帧 单滤波 (仅ID, 自由设定)"/>
+	<string id="1218" value="标准帧 单滤波 (含ID, RTR和部分数据, 自由设定)"/>
+	<string id="1219" value="标准帧 双滤波 (仅ID, 自由设定)"/>
+	<string id="1220" value="标准帧 双滤波 (含ID, RTR和部分数据, 自由设定)"/>
+	<string id="1221" value="扩展帧 单滤波 (仅ID, 自由设定)"/>
+	<string id="1222" value="扩展帧 单滤波 (含ID和RTR, 自由设定)"/>
+	<string id="1223" value="扩展帧 双滤波 (仅含部分ID, 自由设定)"/>
+	<string id="1224" value="单滤波"/>
+	<string id="1225" value="双滤波"/>
+	<string id="1226" value="标准帧"/>
+	<string id="1227" value="扩展帧"/>
+	<string id="1228" value="滤波器1\n"/>
+	<string id="1229" value="滤波器2\n"/>
+	<dialog id="149" caption="错误信息" fontface="MS Shell Dlg" style="-2134376248" position="0, 0, 281, 306">
+		<control class="BUTTON" caption="错误信息" style="1342177287" position="4, 4, 272, 277"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242816" position="108, 288, 60, 15"/>
+		<control id="1001" class="BUTTON" caption="获取错误信息" style="1342242816" position="108, 258, 62, 15"/>
+		<control id="1002" class="SysListView32" style="1350631425" position="12, 15, 256, 233"/>
+	</dialog>
+	<dialog id="1009" caption="设备信息" fontface="MS Shell Dlg" style="-2134376248" position="0, 0, 166, 94">
+		<control id="1" class="BUTTON" caption="关闭" style="1342242817" position="57, 72, 50, 14"/>
+		<control caption="固件版本：" position="22, 14, 41, 8"/>
+		<control caption="硬件版本：" position="22, 34, 41, 8"/>
+		<control caption="序列号：" position="22, 51, 33, 8"/>
+		<control id="3010" class="EDIT" style="1484851328" styleex="4096" position="64, 12, 78, 14"/>
+		<control id="3011" class="EDIT" style="1484851328" styleex="4096" position="64, 31, 78, 14"/>
+		<control id="3012" class="EDIT" style="1484851328" styleex="4096" position="64, 50, 78, 14"/>
+	</dialog>
+	<dialog id="1013" caption="打开设备" fontface="MS Shell Dlg" style="-2134376248" position="0, 0, 273, 167">
+		<control id="1001" class="COMBOBOX" style="1344339971" position="67, 9, 52, 115"/>
+		<control id="1002" class="COMBOBOX" style="1344339971" position="177, 9, 52, 115"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="71, 123, 50, 15"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="135, 123, 50, 15"/>
+		<control id="1004" class="BUTTON" caption="确定并启动CAN" style="1342242816" position="71, 145, 114, 15"/>
+		<control caption="设备索引号:" style="1342308354" position="4, 12, 58, 8"/>
+		<control caption="通道号:" style="1342308354" position="122, 12, 50, 8"/>
+		<control id="1003" class="BUTTON" caption="同时打开全部CAN通道" style="1342242819" position="146, 24, 110, 9"/>
+		<control id="1011" class="COMBOBOX" style="1344339971" position="67, 50, 52, 134"/>
+		<control id="3005" class="EDIT" style="1350631552" position="206, 52, 30, 13"/>
+		<control id="3006" class="EDIT" style="1350631552" position="206, 70, 30, 13"/>
+		<control caption="定时器0(BTR0):0x" position="138, 55, 65, 8"/>
+		<control caption="波特率:" style="1342308354" position="14, 54, 48, 8"/>
+		<control caption="定时器1(BTR1):0x" position="138, 74, 65, 8"/>
+		<control id="1016" class="BUTTON" caption="使用自定义波特率" style="1342242819" position="40, 74, 80, 9"/>
+		<control style="1342177296" position="24, 87, 218, 1"/>
+		<control style="1342177297" position="24, 68, 1, 20"/>
+		<control style="1342177296" position="26, 68, 103, 1"/>
+		<control style="1342177296" position="128, 48, 113, 1"/>
+		<control style="1342177297" position="240, 48, 1, 41"/>
+		<control style="1342177297" position="128, 48, 1, 22"/>
+		<control style="1342177296" position="0, 39, 266, 1"/>
+		<control id="1014" caption="工作模式:" position="23, 98, 36, 8"/>
+		<control id="3004" class="COMBOBOX" style="1344339971" position="67, 94, 117, 98"/>
+		<control style="1342177296" position="0, 116, 266, 1"/>
+		<control id="1005" class="BUTTON" caption="转发设置" style="1342242816" position="191, 93, 50, 14"/>
+	</dialog>
+	<dialog id="1014" caption="Dialog" fontface="MS Shell Dlg" style="-2134376248" position="0, 0, 576, 284">
+		<control id="1022" class="COMBOBOX" style="1344339971" position="93, 11, 201, 188"/>
+		<control id="1033" class="EDIT" style="1350631552" position="352, 10, 50, 13"/>
+		<control id="1034" class="EDIT" style="1082196096" position="497, 249, 42, 13"/>
+		<control id="1035" class="BUTTON" caption="提交" style="1342242816" position="414, 9, 50, 15"/>
+		<control id="1030" class="COMBOBOX" style="1344339971" position="71, 192, 70, 94"/>
+		<control id="1008" class="COMBOBOX" style="1344339971" position="200, 192, 65, 108"/>
+		<control id="1024" class="EDIT" style="1350631552" position="331, 192, 59, 13"/>
+		<control id="1025" class="EDIT" style="1350631552" position="457, 192, 59, 13"/>
+		<control id="1032" class="BUTTON" caption="计算器" style="1342242816" position="496, 143, 50, 15"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="213, 230, 50, 15"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="289, 230, 50, 15"/>
+		<control caption="滤波模式选择:" style="1342308354" position="15, 14, 74, 9"/>
+		<control id="1023" class="XTPReport" style="1342242816" styleex="131072" position="17, 42, 539, 96"/>
+		<control class="BUTTON" style="1342177287" position="9, 31, 556, 138"/>
+		<control caption="验收码: 0x" style="1342308354" position="275, 195, 53, 13"/>
+		<control caption="屏蔽码: 0x" style="1342308354" position="400, 195, 53, 13"/>
+		<control id="1026" class="BUTTON" caption="使用自定义滤波设置" style="1342242819" position="31, 177, 97, 9"/>
+		<control style="1342177296" position="133, 181, 432, 1"/>
+		<control style="1342177296" position="10, 214, 555, 1"/>
+		<control style="1342177297" position="563, 181, 1, 34"/>
+		<control style="1342177297" position="10, 181, 1, 35"/>
+		<control style="1342177296" position="10, 181, 15, 1"/>
+		<control caption="滤波方式:" style="1342308354" position="15, 195, 53, 13"/>
+		<control caption="注: 如果对应位按钮显示为&quot;X&quot;表示此位为无关位，比如设为&quot;XXX XXXXX111&quot;，则表示收到的帧ID中只要低3位不为&quot;111&quot;就会被过滤掉。" position="19, 143, 412, 22"/>
+		<control caption="帧类型:" style="1342308354" position="144, 195, 52, 13"/>
+		<control id="1036" caption="指定ID: 0x" style="1342308354" position="298, 13, 50, 11"/>
+		<control id="1037" caption="到 0x" style="1073872898" position="464, 254, 28, 7"/>
+	</dialog>
+	<dialog id="1015" caption="转发设置" fontface="MS Shell Dlg" style="-2134376248" position="0, 0, 306, 240">
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="82, 219, 50, 14"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="173, 219, 50, 14"/>
+		<control id="1000" class="BUTTON" caption="CAN1" style="1342242819" position="17, 18, 34, 10"/>
+		<control id="1001" class="BUTTON" caption="CAN2" style="1342242819" position="57, 18, 34, 10"/>
+		<control id="1002" class="BUTTON" caption="CAN3" style="1342242819" position="97, 18, 34, 10"/>
+		<control id="1003" class="BUTTON" caption="CAN4" style="1342242819" position="137, 18, 34, 10"/>
+		<control id="1004" class="BUTTON" caption="CAN5" style="1342242819" position="177, 18, 34, 10"/>
+		<control id="1005" class="BUTTON" caption="CAN6" style="1342242819" position="217, 18, 34, 10"/>
+		<control id="1006" class="BUTTON" caption="CAN7" style="1342242819" position="257, 18, 34, 10"/>
+		<control class="BUTTON" caption="CAN0" style="1342177287" position="9, 7, 291, 25"/>
+		<control id="1007" class="BUTTON" caption="CAN0" style="1342242819" position="17, 43, 34, 10"/>
+		<control id="1008" class="BUTTON" caption="CAN2" style="1342242819" position="57, 43, 34, 10"/>
+		<control id="1009" class="BUTTON" caption="CAN3" style="1342242819" position="97, 43, 34, 10"/>
+		<control id="1010" class="BUTTON" caption="CAN4" style="1342242819" position="137, 43, 34, 10"/>
+		<control id="1011" class="BUTTON" caption="CAN5" style="1342242819" position="177, 43, 34, 10"/>
+		<control id="1012" class="BUTTON" caption="CAN6" style="1342242819" position="217, 43, 34, 10"/>
+		<control id="1013" class="BUTTON" caption="CAN7" style="1342242819" position="257, 43, 34, 10"/>
+		<control class="BUTTON" caption="CAN1" style="1342177287" position="9, 32, 291, 25"/>
+		<control id="1014" class="BUTTON" caption="CAN0" style="1342242819" position="17, 69, 34, 10"/>
+		<control id="1015" class="BUTTON" caption="CAN1" style="1342242819" position="57, 69, 34, 10"/>
+		<control id="1016" class="BUTTON" caption="CAN3" style="1342242819" position="97, 69, 34, 10"/>
+		<control id="1017" class="BUTTON" caption="CAN4" style="1342242819" position="137, 69, 34, 10"/>
+		<control id="1018" class="BUTTON" caption="CAN5" style="1342242819" position="177, 69, 34, 10"/>
+		<control id="1019" class="BUTTON" caption="CAN6" style="1342242819" position="217, 69, 34, 10"/>
+		<control id="1020" class="BUTTON" caption="CAN7" style="1342242819" position="257, 69, 34, 10"/>
+		<control class="BUTTON" caption="CAN2" style="1342177287" position="9, 58, 291, 25"/>
+		<control id="1021" class="BUTTON" caption="CAN0" style="1342242819" position="17, 94, 34, 10"/>
+		<control id="1022" class="BUTTON" caption="CAN1" style="1342242819" position="57, 94, 34, 10"/>
+		<control id="1023" class="BUTTON" caption="CAN2" style="1342242819" position="97, 94, 34, 10"/>
+		<control id="1024" class="BUTTON" caption="CAN4" style="1342242819" position="137, 94, 34, 10"/>
+		<control id="1025" class="BUTTON" caption="CAN5" style="1342242819" position="177, 94, 34, 10"/>
+		<control id="1026" class="BUTTON" caption="CAN6" style="1342242819" position="217, 94, 34, 10"/>
+		<control id="1027" class="BUTTON" caption="CAN7" style="1342242819" position="257, 94, 34, 10"/>
+		<control class="BUTTON" caption="CAN3" style="1342177287" position="9, 83, 291, 25"/>
+		<control id="1028" class="BUTTON" caption="CAN0" style="1342242819" position="17, 118, 34, 10"/>
+		<control id="1029" class="BUTTON" caption="CAN1" style="1342242819" position="57, 118, 34, 10"/>
+		<control id="1030" class="BUTTON" caption="CAN2" style="1342242819" position="97, 118, 34, 10"/>
+		<control id="1031" class="BUTTON" caption="CAN3" style="1342242819" position="137, 118, 34, 10"/>
+		<control id="1032" class="BUTTON" caption="CAN5" style="1342242819" position="177, 118, 34, 10"/>
+		<control id="1033" class="BUTTON" caption="CAN6" style="1342242819" position="217, 118, 34, 10"/>
+		<control id="1034" class="BUTTON" caption="CAN7" style="1342242819" position="257, 118, 34, 10"/>
+		<control class="BUTTON" caption="CAN4" style="1342177287" position="9, 107, 291, 25"/>
+		<control id="1035" class="BUTTON" caption="CAN0" style="1342242819" position="17, 143, 34, 10"/>
+		<control id="1036" class="BUTTON" caption="CAN1" style="1342242819" position="57, 143, 34, 10"/>
+		<control id="1037" class="BUTTON" caption="CAN2" style="1342242819" position="97, 143, 34, 10"/>
+		<control id="1038" class="BUTTON" caption="CAN3" style="1342242819" position="137, 143, 34, 10"/>
+		<control id="1039" class="BUTTON" caption="CAN4" style="1342242819" position="177, 143, 34, 10"/>
+		<control id="1040" class="BUTTON" caption="CAN6" style="1342242819" position="217, 143, 34, 10"/>
+		<control id="1041" class="BUTTON" caption="CAN7" style="1342242819" position="257, 143, 34, 10"/>
+		<control class="BUTTON" caption="CAN5" style="1342177287" position="9, 132, 291, 25"/>
+		<control id="1042" class="BUTTON" caption="CAN0" style="1342242819" position="17, 170, 34, 10"/>
+		<control id="1043" class="BUTTON" caption="CAN1" style="1342242819" position="57, 170, 34, 10"/>
+		<control id="1044" class="BUTTON" caption="CAN2" style="1342242819" position="97, 170, 34, 10"/>
+		<control id="1045" class="BUTTON" caption="CAN3" style="1342242819" position="137, 170, 34, 10"/>
+		<control id="1046" class="BUTTON" caption="CAN4" style="1342242819" position="177, 170, 34, 10"/>
+		<control id="1047" class="BUTTON" caption="CAN5" style="1342242819" position="217, 170, 34, 10"/>
+		<control id="1048" class="BUTTON" caption="CAN7" style="1342242819" position="257, 170, 34, 10"/>
+		<control class="BUTTON" caption="CAN6" style="1342177287" position="9, 158, 291, 25"/>
+		<control id="1049" class="BUTTON" caption="CAN0" style="1342242819" position="17, 194, 34, 10"/>
+		<control id="1050" class="BUTTON" caption="CAN1" style="1342242819" position="57, 194, 34, 10"/>
+		<control id="1051" class="BUTTON" caption="CAN2" style="1342242819" position="97, 194, 34, 10"/>
+		<control id="1052" class="BUTTON" caption="CAN3" style="1342242819" position="137, 194, 34, 10"/>
+		<control id="1053" class="BUTTON" caption="CAN4" style="1342242819" position="177, 194, 34, 10"/>
+		<control id="1054" class="BUTTON" caption="CAN5" style="1342242819" position="217, 194, 34, 10"/>
+		<control id="1055" class="BUTTON" caption="CAN6" style="1342242819" position="257, 194, 34, 10"/>
+		<control class="BUTTON" caption="CAN7" style="1342177287" position="9, 183, 291, 25"/>
+		<control id="1056" class="BUTTON" caption="全选" style="1342242819" position="16, 215, 62, 10"/>
+	</dialog>
+</resource>

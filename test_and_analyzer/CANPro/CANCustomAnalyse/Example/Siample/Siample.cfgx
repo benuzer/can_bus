@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CanCustomAnalyseConfig>
+  <LayoutInfo>
+    <Style>
+    </Style>
+    <Panels>
+    </Panels>
+  </LayoutInfo>
+  <ProtocolFile Path="E:\Project\CANAnalyst-III\share\CANStudioR\CANCustomAnalyse\Example\Siample\Siample.ccp" />
+  <PanelsInfo>
+    <Panel Name="控件面板1" Type="Ctrl">
+      <Layout GirdWide="180" DisplaySize="496,180" LayoutType="0" ShowPanel="1" />
+      <GaugesInfo>
+        <Gauge Index="0" Name="控件0" Type="GT_FULLGAUGE">
+          <Rectangle x="10" y="10" width="160" height="160" />
+          <Property>
+            <Style Value="Style_Default" />
+            <Scale>
+              <MajorTickCount Value="11" />
+              <MinorTickCount Value="4" />
+              <MaxValue Value="256" />
+              <MinValue Value="0" />
+            </Scale>
+            <DefaultValue Value="176" />
+            <SetData Value="SiampleMessage/LowByteValue" />
+          </Property>
+        </Gauge>
+      </GaugesInfo>
+    </Panel>
+    <Panel Name="数据面板1" Type="Data">
+      <Layout ShowPanel="1" />
+      <SingleList>
+        <Single Name="SiampleMessage/LowByteValue" />
+      </SingleList>
+    </Panel>
+  </PanelsInfo>
+</CanCustomAnalyseConfig>

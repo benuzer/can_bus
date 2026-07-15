@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<resource CompactMode="1" Langauage="Chinese (PRC)">
+	<string id="1" value="没有板载信息。"/>
+	<string id="2" value="没有相关操作。"/>
+	<string id="3" value="请选择设备索引号。"/>
+	<string id="4" value="读取失败。"/>
+	<string id="5" value="中断记录: 0x%02x\nCAN控制器模式寄存器: 0x%02x\nCAN控制器状态寄存器: 0x%02x\nCAN控制器仲裁丢失寄存器: 0x%02x\nCAN控制器错误寄存器: 0x%02x\nCAN控制器错误警告限制寄存器: 0x%02x\nCAN控制器接收错误寄存器: 0x%02x\nCAN控制器发送错误寄存器: 0x%02x"/>
+	<string id="6" value="此设备为非智能卡，没有板载错误信息。"/>
+	<string id="7" value="当前错误码: 0x%02x\n"/>
+	<string id="8" value="错误标识数据: 0x%02x 0x%02x 0x%02x "/>
+	<string id="9" value="错误标识数据: 0x%02x "/>
+	<string id="10" value="错误标识数据: 无"/>
+	<string id="11" value="请输入数据"/>
+	<string id="12" value="当前CAN控制器的地址为0x%02x的控制寄存器的状态值为: 0x%02x"/>
+	<string id="13" value="写入失败"/>
+	<string id="14" value="写入成功"/>
+	<dialog id="149" caption="参数设置" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 210, 110">
+		<control id="3002" class="BUTTON" caption="读CAN控制器的状态" style="1342242816" position="16, 10, 79, 16"/>
+		<control id="3003" class="BUTTON" caption="读当前错误信息" style="1342242816" position="113, 9, 71, 16"/>
+		<control id="2007" class="BUTTON" caption="读CAN控制器的控制寄存器" style="1342242816" position="16, 36, 101, 16"/>
+		<control caption="地址:" position="126, 41, 21, 8"/>
+		<control id="2008" class="EDIT" style="1350631552" position="148, 37, 40, 13"/>
+		<control class="BUTTON" style="1342177287" position="10, 28, 182, 28"/>
+		<control id="2016" class="BUTTON" caption="写入" style="1342242816" position="141, 76, 32, 16"/>
+		<control caption="数值:" position="85, 81, 21, 8"/>
+		<control id="2017" class="EDIT" style="1350631552" position="111, 77, 22, 13"/>
+		<control class="BUTTON" caption=" 写CAN控制器的控制寄存器 " style="1342177287" position="21, 65, 157, 32"/>
+		<control caption="地址:" position="29, 81, 21, 8"/>
+		<control id="2018" class="EDIT" style="1350631552" position="55, 77, 22, 13"/>
+	</dialog>
+</resource>

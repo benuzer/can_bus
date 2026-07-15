@@ -1,0 +1,11 @@
+📄 RAPOR 1: Normal Operasyonel Durum (Baseline)
+
+Senaryo: Araç, standart otoyol koşullarında hiçbir dış müdahale veya anomali olmaksızın 69 km/s hızla seyretmektedir. Motor devri ve hız göstergeleri normal periyodunda çalışmaktadır.
+
+Ağ Konfigürasyonu: 500 kbps Baud Rate.
+
+Gözlemlenen Trafik: * Motor Devri (ID: 0x100) -> 100 ms periyotla akıyor.
+
+Araç Hızı (ID: 0x101) -> {00, 45, 00, 00, 00, 00, 00, 00} (0x45 = 69 km/s) -> 100 ms periyotla akıyor.
+
+Sonuç: CAN hattında Error Frame (Hata Çerçevesi) veya paket düşmesi (drop) yoktur. İletişim %100 sağlıklıdır. IDS modeli için "Normal (0)" etiketli referans verisidir.

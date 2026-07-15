@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<resource CompactMode="1" Langauage="English">
+	<string id="1" value="No information on board."/>
+	<string id="2" value="No Operation."/>
+	<string id="3" value="Please Select the Device Index."/>
+	<string id="4" value="Read Failed."/>
+	<string id="5" value="Interrupt: 0x%02x\nCAN Mode Register: 0x%02x\nCAN Status Register: 0x%02x\nCAN Arbitration Lost Capture Register: 0x%02x\nCAN Error Code Capture Register: 0x%02x\nCAN Error Warning Limit Register: 0x%02x\nCAN Rx Error Counter Register: 0x%02x\nCAN Tx Error Counter Register: 0x%02x"/>
+	<string id="6" value="This device has no information on board."/>
+	<string id="7" value="Error Code: 0x%02x\n"/>
+	<string id="8" value="Error Data: 0x%02x 0x%02x 0x%02x "/>
+	<string id="9" value="Error Data: 0x%02x "/>
+	<string id="10" value="Error Data: None"/>
+	<string id="11" value="Please input data."/>
+	<string id="12" value="The register's address: 0x%02x   Value: 0x%02x"/>
+	<string id="13" value="Write Failed."/>
+	<string id="14" value="Write Failed."/>
+	<string id="15" value="Client"/>
+	<string id="16" value="Server"/>
+	<dialog id="2000" caption="Select Device - CANET-TCP" fontsize="9" fontface="MS Sans Serif" style="-1865940800" position="0, 0, 204, 184">
+		<control caption="Loacl Port:" style="1342308354" position="35, 51, 56, 8"/>
+		<control id="2012" class="EDIT" style="1350631552" position="96, 47, 46, 13"/>
+		<control caption="CANET-TCP IP:" style="1342308354" position="22, 85, 69, 8"/>
+		<control id="2013" class="SysIPAddress32" caption="IPAddress1" style="1342242816" position="94, 82, 91, 13"/>
+		<control caption="CANET-TCP Work Port:" style="1342308354" position="8, 104, 83, 8"/>
+		<control id="2014" class="EDIT" style="1350631552" position="94, 101, 91, 13"/>
+		<control class="BUTTON" caption=" CANET-TCP Settings " style="1342177287" position="6, 72, 191, 49"/>
+		<control caption="Device Index:" style="1342308354" position="16, 11, 75, 8"/>
+		<control id="2015" class="COMBOBOX" style="1344340227" position="96, 7, 46, 191"/>
+		<control id="1" class="BUTTON" caption="OK" style="1342242817" position="46, 132, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="109, 132, 50, 16"/>
+		<control id="1004" class="BUTTON" caption="OK and Start CAN" style="1342242816" position="46, 156, 113, 16"/>
+		<control caption="Work Mode:" style="1342308354" position="16, 32, 75, 8"/>
+		<control id="1000" class="COMBOBOX" style="1344339971" position="96, 27, 46, 114"/>
+	</dialog>
+</resource>

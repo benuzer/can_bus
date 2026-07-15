@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<resource CompactMode="1" Langauage="Chinese (PRC)">
+	<string id="1" value="没有板载信息。"/>
+	<string id="2" value="没有相关操作。"/>
+	<string id="3" value="请选择设备索引号。"/>
+	<string id="4" value="读取失败。"/>
+	<string id="5" value="中断记录: 0x%02x\nCAN控制器模式寄存器: 0x%02x\nCAN控制器状态寄存器: 0x%02x\nCAN控制器仲裁丢失寄存器: 0x%02x\nCAN控制器错误寄存器: 0x%02x\nCAN控制器错误警告限制寄存器: 0x%02x\nCAN控制器接收错误寄存器: 0x%02x\nCAN控制器发送错误寄存器: 0x%02x"/>
+	<string id="6" value="此设备为非智能卡，没有板载错误信息。"/>
+	<string id="7" value="当前错误码: 0x%02x\n"/>
+	<string id="8" value="错误标识数据: 0x%02x 0x%02x 0x%02x "/>
+	<string id="9" value="错误标识数据: 0x%02x "/>
+	<string id="10" value="错误标识数据: 无"/>
+	<string id="11" value="请输入数据"/>
+	<string id="12" value="当前CAN控制器的地址为0x%02x的控制寄存器的状态值为: 0x%02x"/>
+	<string id="13" value="写入失败"/>
+	<string id="14" value="写入成功"/>
+	<string id="15" value="客户端"/>
+	<string id="16" value="服务器"/>
+	<dialog id="2000" caption="选择设备 - CANET-TCP" fontsize="9" fontface="宋体" style="-1865940800" position="0, 0, 204, 184">
+		<control caption="本机端口:" style="1342308354" position="55, 51, 36, 8"/>
+		<control id="2012" class="EDIT" style="1350631552" position="96, 47, 46, 13"/>
+		<control caption="CANET-TCP IP地址:" style="1342308354" position="22, 85, 69, 8"/>
+		<control id="2013" class="SysIPAddress32" caption="IPAddress1" style="1342242816" position="94, 82, 91, 13"/>
+		<control caption="CANET-TCP 工作端口:" style="1342308354" position="8, 104, 83, 8"/>
+		<control id="2014" class="EDIT" style="1350631552" position="94, 101, 91, 13"/>
+		<control class="BUTTON" caption=" CANET-TCP 设置 " style="1342177287" position="6, 72, 191, 49"/>
+		<control caption="设备索引号:" style="1342308354" position="16, 11, 75, 8"/>
+		<control id="2015" class="COMBOBOX" style="1344340227" position="96, 7, 46, 191"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="46, 132, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="109, 132, 50, 16"/>
+		<control id="1004" class="BUTTON" caption="确定并启动CAN" style="1342242816" position="46, 156, 113, 16"/>
+		<control caption="工作方式:" style="1342308354" position="16, 32, 75, 8"/>
+		<control id="1000" class="COMBOBOX" style="1344339971" position="96, 27, 46, 114"/>
+	</dialog>
+</resource>

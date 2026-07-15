@@ -1,0 +1,54 @@
+📄 RAPOR 3: DoS (Denial of Service) / Flood Saldırısı ve Bus-Off Anomalisi
+Saldırı Türü: Denial of Service (DoS) / Network Flooding (Ağ Boğma)
+
+Amaç: Hedef ECU'nun (Arduino) CAN bus üzerindeki hakemlik (arbitration) sürecini kaybetmesini sağlayarak ağ iletişimini tamamen kesmek (Bus-Off durumuna düşürmek) ve bu anomaliyi bir IDS (Saldırı Tespit Sistemi) eğitimi için kaydetmek.
+
+Hedef Sistem:
+
+Donanım: Arduino UNO + MCP2515 CAN Shield (PC-2)
+
+Ağ Hızı (Baud Rate): 500 kbps
+
+Normal İletişim: 0x100 (Motor Devri) ve 0x101 (Hız) ID'li paketlerin 100 ms periyotla yayını.
+
+Saldırgan Sistem:
+
+Donanım: WaveShare USB-CAN-B Modülü (PC-1)
+
+Yazılım: CANPro Analyzer
+
+Saldırı Parametreleri:
+
+Hedef ID: 0x001 (Ağdaki neredeyse en yüksek önceliğe sahip ID)
+
+Format/Type: Standard (11-bit) / Data Frame
+
+DLC: 8 byte
+
+Payload (Veri): 00 00 00 00 00 00 00 00 (İçerik önemsizdir, amaç hattı işgal etmektir)
+
+Enjeksiyon Hızı (Interval): Kontrollü veri kaydı için 0 ms
+
+Gönderim Sayısı: Toplamda 10.000+ döngü (Elde edilen toplam log: 101.000 satır).
+
+Saldırı Mekaniği (Fiziksel Katman): CAN protokolünde (ISO 11898) '0' bitleri baskın (dominant), '1' bitleri çenik (recessive) karakterdedir. Saldırgan sürekli 0x001 (00000000001 ikili) ID'sini yayına sürdüğünde, 0x100 (00100000000 ikili) ve 0x101 ID'lerine sahip paketler donanımsal olarak çarpışmayı (arbitration) kaybeder.
+
+Gözlemlenen Etki:
+
+Saldırı öncesinde 0x100 ve 0x101 paketleri sorunsuz iletilmiştir.
+
+Saldırı (0x001 enjeksiyonu) başladığı anda, Arduino üzerindeki MCP2515 çipi sürekli olarak hakemliği kaybetmiştir.
+
+Cihazın Gönderme Hata Sayacı (TEC - Transmit Error Counter) kritik seviyeye ulaşmamış olsa da, Tx Buffer (gönderme arabelleği) tamamen dolmuş ve yeni mesaj gönderimi imkansız hale gelmiştir.
+
+Arduino tarafında CAN.sendMsgBuf() fonksiyonu CAN_FAILTX hatası döndürerek iletişimin fiziksel olarak koptuğunu (Denial of Service) ispatlamıştır.
+
+Toplanan Veri (Dataset):
+
+Dosya Adı: DoS_Attack.csv
+
+Satır Sayısı: ~101.000
+
+Veri Yapısı: Zaman damgaları (Timestamp) oldukça sıkışık, ID ağırlıklı olarak 001 ve nadiren hedefin başarısız denemeleri olan 100/101.
+
+Sonuç ve IDS Stratejisi: Bu veri seti, bir aracın iletişiminin dışarıdan nasıl kesilebileceğini (örneğin fren sisteminin felç edilmesi) kanıtlamaktadır. 5. aşamada geliştirilecek olan Yapay Zeka destekli IDS, 0x001 ID'sinin aniden ve saniyede yüzlerce kez (2ms periyotla) görülmesi paternini bir "frekans/zaman anomalisi" olarak etiketleyecek ve bu tür bir ağ boğulmasını tespit edecektir.

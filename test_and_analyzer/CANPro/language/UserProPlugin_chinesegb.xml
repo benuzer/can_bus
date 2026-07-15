@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<resource CompactMode="1" Langauage="Chinese (PRC)">
+	<string id="505" value="二进制显示\n二进制"/>
+	<string id="506" value="十进制显示\n十进制"/>
+	<string id="507" value="十六进制显示\n十六进制"/>
+	<string id="508" value="数据发送\n发送"/>
+	<string id="509" value="触发设置\n触发设置"/>
+	<string id="511" value="启用触发\n启用触发"/>
+	<string id="512" value="不显示发送帧\n隐藏"/>
+	<string id="513" value="定义"/>
+	<string id="514" value="选择"/>
+	<string id="15001" value="源节点ID"/>
+	<string id="15002" value="目标节点ID"/>
+	<string id="15003" value="响应位"/>
+	<string id="15004" value="功能码"/>
+	<string id="15005" value="资源ID"/>
+	<string id="15006" value="分段序号"/>
+	<string id="15007" value="二进制"/>
+	<string id="15008" value="十进制"/>
+	<string id="15009" value="十六进制"/>
+	<string id="15010" value="行文本颜色"/>
+	<string id="15011" value="不显示"/>
+	<string id="15012" value="当 %s 的值等于 %x 时，"/>
+	<string id="15013" value="当 %s 的值不等于 %x 时，"/>
+	<string id="15014" value="最后分段"/>
+	<string id="15015" value="资源子ID"/>
+	<string id="15016" value="数据"/>
+	<string id="15017" value="发送次数"/>
+	<string id="15018" value="时间间隔"/>
+	<string id="15019" value="传输方向"/>
+	<string id="15021" value="时间标识"/>
+	<string id="15022" value="发送列表为空，将使用原来的设置"/>
+	<string id="15023" value="状态"/>
+	<string id="15024" value="保留"/>
+	<string id="15025" value="写端口"/>
+	<string id="15026" value="读端口"/>
+	<string id="15027" value="输入端口事件触发传送"/>
+	<string id="15028" value="建立连接"/>
+	<string id="15029" value="删除连接"/>
+	<string id="15030" value="设备复位"/>
+	<string id="15031" value="MAC ID检测"/>
+	<string id="15032" value="出错响应"/>
+	<string id="15033" value="请先选择需要添加条件的项"/>
+	<string id="15034" value="并且:"/>
+	<string id="15035" value="同一过滤项里的所有条件应同为“显示”或同为“隐藏”"/>
+	<string id="15036" value="同一触发条件项中所有的条件应是相同的触发类型"/>
+	<string id="15037" value=" "/>
+	<string id="15038" value="DI输入单元"/>
+	<string id="15039" value="DO输出单元"/>
+	<string id="15040" value="AI输入单元"/>
+	<string id="15041" value="AO输出单元"/>
+	<string id="15042" value="厂商代码"/>
+	<string id="15043" value="产品类型"/>
+	<string id="15044" value="产品型号"/>
+	<string id="15045" value="产品硬件版本"/>
+	<string id="15046" value="产品固件版本"/>
+	<string id="15047" value="产品SN号码"/>
+	<string id="15048" value="本节点ID"/>
+	<string id="15049" value="UserPro标准波特率"/>
+	<string id="15050" value="UserPro特殊波特率"/>
+	<string id="15051" value="循环模式定时参数"/>
+	<string id="15052" value="主站通讯定时参数"/>
+	<string id="15053" value="状态改变触发使能"/>
+	<string id="15054" value="主站MAC ID"/>
+	<string id="15055" value="输入输出通道参数"/>
+	<string id="15056" value="输入输出配置参数"/>
+	<string id="15057" value=" "/>
+	<string id="15058" value=" "/>
+	<string id="15059" value="序号"/>
+	<string id="15060" value="无"/>
+	<string id="15061" value="源节点:%d 目标节点:%d 功能码:%02X  资源ID:%02X "/>
+	<string id="15062" value="立即发送"/>
+	<string id="15063" value="停止发送"/>
+	<string id="15064" value="发送"/>
+	<string id="15065" value="帧ID:%08X %s %s DLC:%02X Data:%s"/>
+	<string id="15066" value="标准帧"/>
+	<string id="15067" value="扩展帧"/>
+	<string id="15068" value="数据帧"/>
+	<string id="15069" value="远程帧"/>
+	<string id="15070" value="暂停显示"/>
+	<string id="15071" value="发送数据"/>
+	<string id="15072" value="-UserPro- 触发发送数据"/>
+	<string id="15073" value="CAN帧"/>
+	<string id="15074" value="隐藏"/>
+	<string id="15075" value="显示"/>
+	<string id="15076" value="确定"/>
+	<string id="18409" value="发送方式"/>
+	<string id="18410" value="帧编号"/>
+	<string id="18414" value="开始分段"/>
+	<string id="18415" value="分段中"/>
+	<string id="18416" value="分段结束"/>
+	<string id="18417" value="无分段"/>
+	<string id="18418" value="协议开始的ID、DATA段，被更改"/>
+	<string id="18419" value="分段设置中, 无分段 和 开始分段 使用了相同的标识值"/>
+	<string id="18420" value="分段设置中, 无分段 和 分段中 使用了相同的标识值"/>
+	<string id="18421" value="分段设置中, 无分段 和 分段结束 使用了相同的标识值"/>
+	<string id="18422" value="分段设置中, 开始分段 和 分段中 使用了相同的标识值"/>
+	<string id="18423" value="分段设置中, 开始分段 和 分段结束 使用了相同的标识值"/>
+	<string id="18424" value="分段设置中, 分段中 和 分段结束  使用了相同的标识值"/>
+	<string id="18425" value="分段职责中的 段内编号 没有分配给任何位段"/>
+	<string id="18426" value="分段职责中的 段编号 没有分配给任何位段"/>
+	<string id="18427" value="分段职责中的 数据区 没有分配给任何位段"/>
+	<string id="18428" value="分段职责中的 数据长度 没有分配给任何位段"/>
+	<string id="18429" value="结点:%s 无效"/>
+	<string id="18430" value="节点:%s 的条件有效性中,所依赖结点:%s 不存在"/>
+	<string id="18431" value="节点:%s 的条件有效性中,比较操作不合法"/>
+	<string id="18432" value="开始位%d 在父节点的开始位%d 之前，设置无效，请重新输入!"/>
+	<string id="18433" value="开始位%d 在父节点的结束位%d 之后，设置无效，请重新输入!"/>
+	<string id="18434" value="错误的开始"/>
+	<string id="18435" value="开始位%d 在子结点：%s 的开始位%d 之后，请重新设置！"/>
+	<string id="18436" value="开始位%d 在子结点：%s 的结束位%d 之前，请重新设置！"/>
+	<string id="18437" value="结束位%d 在父节点的结束位%d 之后，设置无效，请重新输入!"/>
+	<string id="18438" value="结束位%d 在父节点的开始位%d 之前，设置无效，请重新输入!"/>
+	<string id="18439" value="结束位%d 在子结点：%s的开始位%d 之前，请重新设置！"/>
+	<string id="18440" value="结束位%d 在子结点：%s 的结束位%d 之前，请重新设置！"/>
+	<string id="18441" value="恭喜你, 可以进行CAN的报文分析了!"/>
+	<string id="18442" value="协议正确"/>
+	<string id="18443" value="协议不合理"/>
+	<string id="18444" value="子位段"/>
+	<string id="18445" value="协议名是不可以为空的，请重新输入协议名!"/>
+	<string id="18446" value="没有输入协议名"/>
+	<string id="18447" value="不能使用 . 和 .. 作为文件名，因为它们是用在系统目录中特殊字"/>
+	<string id="18448" value="使用非法的名字"/>
+	<string id="18449" value="协议名：%s 是插件默认使用的，用户不能使用！"/>
+	<string id="18450" value="新协议和已有的协议名字重复"/>
+	<string id="18451" value="协议重名"/>
+	<string id="18452" value="错误的结束位"/>
+	<string id="18453" value="+%s+ 数据发送"/>
+	<string id="18454" value="正常发送"/>
+	<string id="18455" value="单帧发送"/>
+	<string id="18456" value="自发自收"/>
+	<string id="18457" value="单帧自发自收"/>
+	<string id="18458" value="发送类型"/>
+	<string id="18459" value="发送次数"/>
+	<string id="18460" value="发送间隔(ms)"/>
+	<string id="18461" value="+%s+ 接收触发设置"/>
+	<string id="18462" value="+%s+ 触发发送数据"/>
+	<string id="18463" value="协议位段"/>
+	<string id="18464" value="示范数据"/>
+	<string id="18465" value="成功"/>
+	<string id="18466" value="开始值"/>
+	<string id="18467" value="结束值"/>
+	<string id="18468" value="描述文本"/>
+	<string id="18469" value="位段描述有重复，请重新输入位段范围！"/>
+	<string id="18470" value="描述文本不能超过100个字符！"/>
+	<string id="18471" value="确定要删除协议"/>
+	<string id="18472" value="删除协议"/>
+	<string id="18473" value="目标结点"/>
+	<string id="18474" value="条件有重叠"/>
+	<string id="18475" value="段内编号"/>
+	<string id="18476" value="数据区"/>
+	<string id="18477" value="数据长度"/>
+	<menu id="15003">
+		<menuitem caption="1">
+			<menuitem caption="显示方式">
+				<menuitem id="505" caption="二进制"/>
+				<menuitem id="506" caption="十进制"/>
+				<menuitem id="507" caption="十六进制"/>
+			</menuitem>
+			<menuitem id="508" caption="数据发送"/>
+			<menuitem/>
+			<menuitem id="509" caption="触发设置"/>
+			<menuitem id="511" caption="启用触发"/>
+			<menuitem id="512" caption="不显示发送帧"/>
+			<menuitem id="513" caption="定义协议"/>
+			<menuitem id="514" caption="选择协议"/>
+		</menuitem>
+		<menuitem caption="2">
+			<menuitem id="502" caption="发送"/>
+		</menuitem>
+		<menuitem id="65535" caption="3"/>
+	</menu>
+	<menu id="18196">
+		<menuitem caption="1">
+			<menuitem id="18314" caption="插入"/>
+			<menuitem id="18313" caption="删除"/>
+			<menuitem id="18315" caption="重命名"/>
+			<menuitem id="18317" caption="插入子项"/>
+			<menuitem id="18318" caption="展开"/>
+		</menuitem>
+		<menuitem caption="2">
+			<menuitem id="18317" caption="插入子项"/>
+			<menuitem id="18318" caption="展开"/>
+		</menuitem>
+	</menu>
+	<dialog id="15002" caption="分段标志值的设定" fontface="MS Shell Dlg" style="-2134376248" position="0, 0, 155, 105">
+		<control id="17075" class="BUTTON" caption="确定" style="1342242817" position="89, 84, 50, 14"/>
+		<control id="17074" class="EDIT" style="1350631552" position="38, 9, 101, 13"/>
+		<control id="17007" class="EDIT" style="1350631552" position="38, 27, 101, 13"/>
+		<control id="16084" class="EDIT" style="1350631552" position="38, 45, 101, 13"/>
+		<control caption="段开始" style="1342308864" position="11, 11, 25, 8"/>
+		<control caption="段中间" style="1342308864" position="11, 30, 25, 8"/>
+		<control caption="段结束" style="1342308864" position="11, 48, 25, 8"/>
+		<control id="16087" class="EDIT" style="1350631552" position="38, 64, 101, 13"/>
+		<control caption="无分段" style="1342308864" position="11, 66, 25, 8"/>
+	</dialog>
+	<dialog id="18139" fontsize="9" fontface="宋体" style="1073741888" position="0, 0, 469, 306" dialogex="1">
+		<control id="17050" class="BUTTON" style="1342242816" position="42, 18, 153, 16"/>
+		<control caption="背景色:" position="13, 22, 28, 8"/>
+		<control class="BUTTON" caption=" 行文本颜色 " style="1342177287" position="209, 7, 248, 144"/>
+		<control caption="当" position="219, 22, 8, 8"/>
+		<control id="16013" class="COMBOBOX" style="1344339971" position="229, 20, 60, 157"/>
+		<control id="16014" class="EDIT" style="1350631552" position="339, 20, 97, 14"/>
+		<control caption="对应文本颜色为:" position="219, 40, 60, 8"/>
+		<control id="16016" class="BUTTON" caption="颜色" style="1342242816" position="280, 36, 43, 17"/>
+		<control id="16017" class="BUTTON" caption="添加" style="1342242816" position="361, 43, 40, 14"/>
+		<control id="16018" class="LISTBOX" style="1352730961" position="219, 60, 228, 84"/>
+		<control id="16019" class="BUTTON" caption="删除" style="1342242816" position="407, 43, 40, 14"/>
+		<control class="BUTTON" caption=" 显示过滤 " style="1342177287" position="209, 156, 249, 147"/>
+		<control caption="当" position="219, 172, 8, 8"/>
+		<control id="16015" class="COMBOBOX" style="1344339971" position="229, 169, 60, 157"/>
+		<control id="16020" class="EDIT" style="1350631552" position="339, 169, 97, 14"/>
+		<control caption="时" position="441, 172, 8, 8"/>
+		<control id="16022" class="BUTTON" caption="添加新项" style="1342242816" position="357, 195, 50, 14"/>
+		<control id="16023" class="LISTBOX" style="1353779457" position="219, 211, 228, 85"/>
+		<control id="16024" class="BUTTON" caption="删除" style="1342242816" position="413, 195, 33, 14"/>
+		<control caption="显示方式:" position="10, 266, 36, 8"/>
+		<control id="16021" class="COMBOBOX" style="1344339971" position="47, 263, 56, 84"/>
+		<control id="16025" class="BUTTON" caption="触发设置" style="1342242816" position="10, 285, 52, 16"/>
+		<control id="16032" class="BUTTON" caption="不显示发送帧" style="1342242819" position="71, 288, 62, 10"/>
+		<control id="16049" class="BUTTON" caption="导入配置" style="1342242816" position="143, 285, 52, 16"/>
+		<control id="16065" class="COMBOBOX" style="1344339971" position="296, 20, 37, 124"/>
+		<control id="16051" class="COMBOBOX" style="1344339971" position="296, 169, 37, 124"/>
+		<control id="16070" class="COMBOBOX" style="1344339971" position="219, 187, 47, 72"/>
+		<control id="17091" class="SysListView32" caption="List1" style="1350631437" position="10, 57, 185, 197"/>
+		<control caption="时" position="439, 24, 8, 8"/>
+		<control class="BUTTON" caption="列表颜色" style="1342177287" position="3, 7, 199, 253"/>
+		<control caption="文本颜色: (使用右键可以设置元素的文本颜色)" position="11, 46, 180, 10"/>
+		<control style="1342177296" position="5, 38, 196, 1"/>
+		<control id="17055" class="BUTTON" caption="添加到已有项" style="1342242816" position="294, 195, 57, 14"/>
+	</dialog>
+	<dialog id="18140" caption="-UserPro- 数据发送" fontsize="9" fontface="宋体" style="-2133917632" position="0, 0, 328, 335" dialogex="1">
+		<control id="16033" class="BUTTON" caption="立即发送" style="1342242816" position="223, 149, 42, 16"/>
+		<control id="16017" class="BUTTON" caption="添加到列表" style="1342242816" position="269, 149, 51, 16"/>
+		<control id="16034" class="SysListView32" caption="List1" style="1350631433" position="12, 183, 287, 122"/>
+		<control id="16027" class="BUTTON" caption="删除数据" style="1342242816" position="12, 310, 43, 16"/>
+		<control id="16037" class="BUTTON" caption="历史记录" style="1342242816" position="64, 310, 43, 16"/>
+		<control id="16035" class="BUTTON" caption="发送" style="1342242816" position="178, 309, 49, 16"/>
+		<control id="17056" class="EDIT" style="1350631552" position="267, 310, 48, 14"/>
+		<control id="17116" class="BUTTON" caption="发送列表" style="1342177287" position="6, 172, 316, 159"/>
+		<control id="17115" caption="发送次数:" position="231, 314, 36, 8"/>
+		<control id="17117" caption="每次间隔:" position="225, 130, 36, 8"/>
+		<control id="17118" caption="发送次数:" position="225, 110, 36, 8"/>
+		<control id="16066" class="EDIT" style="1350639745" position="262, 127, 49, 14"/>
+		<control id="17123" caption="ms" position="314, 130, 8, 8"/>
+		<control id="16067" class="EDIT" style="1350639745" position="262, 107, 59, 14"/>
+		<control id="16072" class="BUTTON" caption="▼" style="1342242944" position="304, 252, 13, 27"/>
+		<control id="17055" class="BUTTON" caption="新报文" style="1342242816" position="169, 4, 38, 13"/>
+		<control id="17084" class="SysTreeView32" caption="Tree1" style="1350636071" position="6, 19, 212, 146"/>
+		<control id="17085" class="EDIT" style="1352728644" position="225, 39, 97, 41"/>
+		<control id="17120" caption="填充值:(按回车提交修改)" position="225, 7, 100, 9"/>
+		<control id="16071" class="BUTTON" caption="▲" style="1342242944" position="304, 210, 13, 27"/>
+		<control id="17089" class="COMBOBOX" style="1344339971" position="262, 87, 60, 63"/>
+		<control caption="协议数据帧:" position="8, 9, 60, 8"/>
+		<control id="17119" caption="发送类型:" position="225, 90, 36, 8"/>
+		<control id="17098" class="COMBOBOX" style="1344340227" position="226, 19, 96, 84"/>
+	</dialog>
+	<dialog id="18142" caption="-UserPro- 接收触发设置" fontsize="9" fontface="宋体" style="-2133917632" position="0, 0, 316, 189">
+		<control id="16028" class="COMBOBOX" style="1344339971" position="20, 8, 56, 157"/>
+		<control id="16029" class="EDIT" style="1350631552" position="116, 7, 100, 14"/>
+		<control id="16026" class="BUTTON" caption="添加新项" style="1342242816" position="200, 30, 59, 14"/>
+		<control id="16027" class="BUTTON" caption="删除" style="1342242816" position="264, 30, 34, 14"/>
+		<control caption="当" position="8, 10, 9, 8"/>
+		<control caption="时" position="219, 11, 9, 8"/>
+		<control id="16030" class="COMBOBOX" style="1344339971" position="231, 8, 78, 149"/>
+		<control id="16031" class="LISTBOX" style="1353779459" position="8, 47, 300, 113"/>
+		<control id="16040" class="BUTTON" caption="确定" style="1342242816" position="196, 167, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="257, 167, 50, 16"/>
+		<control id="17120" caption="注:数据格式为16进制" position="9, 164, 77, 8"/>
+		<control id="16069" class="COMBOBOX" style="1344339971" position="80, 8, 31, 109"/>
+		<control id="17055" class="BUTTON" caption="添加到已有项" style="1342242816" position="136, 30, 59, 14"/>
+	</dialog>
+	<dialog id="18143" caption=" 用户协议定义" fontsize="9" fontface="宋体" style="-2133917628" styleex="512" position="0, 0, 333, 266" dialogex="1">
+		<control id="17067" class="COMBOBOX" style="1344340163" position="30, 9, 111, 99"/>
+		<control id="17066" class="BUTTON" caption="新建协议" style="1342242816" position="157, 12, 50, 18"/>
+		<control id="17001" class="SysTreeView32" style="1350635695" styleex="512" position="9, 25, 131, 207"/>
+		<control id="17068" class="EDIT" style="1350631552" position="194, 71, 124, 15"/>
+		<control id="17070" class="EDIT" style="1350639745" position="194, 91, 52, 14"/>
+		<control id="16080" class="EDIT" style="1350639745" position="260, 91, 57, 14"/>
+		<control id="16079" class="BUTTON" caption="分段标志 " style="1342242819" position="157, 125, 44, 10"/>
+		<control id="16083" class="BUTTON" caption="分段职责" style="1342242819" position="157, 144, 46, 9"/>
+		<control id="17061" class="COMBOBOX" style="1344341187" position="256, 141, 62, 70"/>
+		<control id="17054" class="BUTTON" caption="保存" style="1476460544" position="281, 37, 36, 18"/>
+		<control id="17112" caption="位段名称:" style="1342308864" position="157, 74, 35, 8"/>
+		<control id="17113" caption="位的范围:" style="1342308864" position="157, 94, 35, 8"/>
+		<control id="16073" caption="协议:" style="1342308864" position="10, 12, 19, 8"/>
+		<control id="17114" caption="到" style="1342308864" position="248, 94, 9, 9"/>
+		<control id="17097" caption="职责:" position="234, 144, 20, 8"/>
+		<control id="17126" class="BUTTON" style="1342177287" position="149, 114, 176, 46"/>
+		<control id="17125" class="BUTTON" style="1342177287" position="149, 62, 176, 51"/>
+		<control id="17055" class="BUTTON" caption="..." style="1476460544" position="205, 124, 27, 12"/>
+		<control id="17078" class="BUTTON" caption="显示" style="1342242819" position="161, 223, 35, 10"/>
+		<control id="17090" class="BUTTON" caption="协议有效性" style="1342242816" position="222, 37, 50, 18"/>
+		<control id="17004" class="BUTTON" caption="值的文本描述" style="1342242816" position="245, 170, 60, 18"/>
+		<control id="17120" caption="提示： DATA 位段由8个字节组成，第一个字节的最低位为DATA的第0位，最后一个字节的最高位为DATA的第63 位。" position="7, 241, 316, 18"/>
+		<control id="17099" class="BUTTON" caption="删除协议" style="1342242816" position="222, 12, 50, 18"/>
+		<control id="17100" class="BUTTON" caption="重命名" style="1342242816" position="157, 37, 50, 18"/>
+		<control id="17124" class="BUTTON" style="1342177287" position="149, 3, 176, 58"/>
+		<control id="16074" class="BUTTON" caption="高位在低字节" style="1342242819" position="245, 199, 62, 10"/>
+		<control id="17103" class="BUTTON" caption="设置有效条件" style="1342242816" position="159, 170, 63, 18"/>
+		<control id="17127" class="BUTTON" style="1342177287" position="149, 161, 176, 56"/>
+		<control id="17107" class="BUTTON" caption="值的类型" style="1342242816" position="159, 193, 63, 18"/>
+		<control id="16075" class="BUTTON" caption="参与发送" style="1342242819" position="245, 223, 48, 10"/>
+	</dialog>
+	<dialog id="18190" caption="导入配置" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 135, 65">
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="21, 38, 42, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="71, 38, 42, 16"/>
+		<control caption="导入" position="19, 17, 16, 8"/>
+		<control id="16050" class="COMBOBOX" style="1344339971" position="37, 14, 48, 148"/>
+		<control caption="的配置" position="89, 17, 25, 8"/>
+	</dialog>
+	<dialog id="18195" caption="新建协议" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 140, 83">
+		<control id="17003" class="EDIT" style="1350631552" position="7, 21, 126, 15"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="23, 59, 43, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="76, 59, 43, 16"/>
+		<control caption="新协议的名称:" position="7, 11, 53, 9"/>
+		<control id="16074" class="BUTTON" caption="使用扩展帧" style="1342242819" position="11, 41, 57, 10"/>
+	</dialog>
+	<dialog id="18197" caption="选择协议" fontsize="9" fontface="宋体" style="-2133917632" position="0, 0, 234, 163">
+		<control id="17067" class="SysListView32" caption="List1" style="1350631436" position="5, 17, 218, 117"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="110, 140, 51, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="171, 140, 51, 16"/>
+		<control caption="协议:" position="8, 8, 51, 8"/>
+	</dialog>
+	<dialog id="18213" caption="位段值的文本描述" fontsize="9" fontface="宋体" style="-2133917632" position="0, 0, 228, 237">
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="55, 211, 48, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="116, 211, 48, 16"/>
+		<control id="17002" class="SysListView32" caption="List1" style="1350631437" position="7, 91, 215, 113"/>
+		<control id="17095" class="EDIT" style="1350631552" position="36, 19, 72, 14"/>
+		<control id="17007" class="EDIT" style="1350631552" position="149, 19, 73, 14"/>
+		<control id="16084" class="EDIT" style="1350631552" position="44, 38, 178, 13"/>
+		<control id="16026" class="BUTTON" caption="添加" style="1342242816" position="61, 55, 42, 14"/>
+		<control id="17004" class="BUTTON" caption="删除" style="1342242816" position="116, 55, 42, 14"/>
+		<control caption="位段值描述表:" position="11, 82, 67, 8"/>
+		<control caption="开始值:" position="7, 22, 28, 8"/>
+		<control caption="结束值:" position="119, 22, 28, 8"/>
+		<control caption="描述文本:" position="7, 41, 36, 8"/>
+		<control id="17122" style="1342177296" position="7, 76, 215, 1"/>
+		<control caption="最小值:" position="7, 6, 28, 8"/>
+		<control id="17093" caption="0x000000" position="37, 6, 74, 8"/>
+		<control caption="最大值:" position="119, 6, 28, 8"/>
+		<control id="17094" caption="0xFFFFFFFF" position="149, 6, 70, 8"/>
+	</dialog>
+	<dialog id="18214" caption="协议重命名" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 153, 86">
+		<control id="17102" class="EDIT" style="1350631552" position="49, 31, 88, 14"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="27, 59, 45, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="82, 59, 45, 16"/>
+		<control caption="原协议名:" position="13, 14, 36, 9"/>
+		<control id="17101" position="51, 14, 86, 8"/>
+		<control caption="新协议名:" position="13, 34, 36, 8"/>
+	</dialog>
+	<dialog id="18216" caption="设置条件有效性" fontsize="9" fontface="宋体" style="-2133917632" position="0, 0, 222, 235">
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="61, 210, 46, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="118, 210, 46, 16"/>
+		<control id="17106" class="COMBOBOX" style="1344339971" position="36, 10, 95, 88"/>
+		<control caption="依赖于:" position="7, 13, 28, 8"/>
+		<control caption="开始值:" position="7, 31, 28, 8"/>
+		<control caption="结束值:" position="123, 31, 28, 8"/>
+		<control id="17095" class="EDIT" style="1350631552" position="36, 28, 53, 14"/>
+		<control id="17007" class="EDIT" style="1350631552" position="152, 28, 61, 14"/>
+		<control id="16026" class="BUTTON" caption="添加" style="1342242816" position="61, 47, 43, 14"/>
+		<control id="17004" class="BUTTON" caption="删除" style="1342242816" position="118, 47, 43, 14"/>
+		<control id="17122" style="1342177296" position="4, 66, 210, 1"/>
+		<control id="17002" class="SysListView32" caption="List1" style="1350631437" position="6, 73, 207, 116"/>
+		<control id="17104" class="BUTTON" caption="与" style="1342308361" position="74, 194, 24, 10"/>
+		<control id="17105" class="BUTTON" caption="或" style="1342177289" position="101, 194, 24, 10"/>
+		<control id="17121" caption="条件之间的关系:" position="10, 194, 60, 8"/>
+	</dialog>
+	<dialog id="18228" caption="值的类型" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 130, 67">
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="17, 43, 41, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="71, 43, 41, 16"/>
+		<control caption="值的类型:" position="15, 10, 45, 8"/>
+		<control id="17108" class="BUTTON" caption="数值" style="1342177289" position="17, 24, 32, 10"/>
+		<control id="17109" class="BUTTON" caption="字节数组" style="1342177289" position="66, 24, 45, 10"/>
+	</dialog>
+</resource>

@@ -1,0 +1,13 @@
+📄 RAPOR 2: Replay / Spoofing (Veri Enjeksiyonu) Saldırısı
+
+Senaryo: Araç 69 km/s hızla normal seyrinde ilerlerken, CAN hattına sızan saldırgan tarafından gösterge paneline sahte hız verisi enjekte edilmiştir. Amaç, aracın gerçek hızını maskelemek ve ECU'yu manipüle etmektir.
+
+Saldırı Vektörü: CANPro Analyzer üzerinden hatta doğrudan manipüle edilmiş paket basıldı.
+
+Saldırı Parametreleri (Payload): * ID: 0x101 (Hız)
+
+Data: {00, 90, 00, 00, 00, 00, 00, 00} (0x90 = 144 km/s)
+
+Zamanlama: 10 ms interval (Orijinal veriyi ezmek için 10 kat agresif gönderim). Toplam 100 döngü.
+
+Saldırı Etkisi: Hedef ECU (Arduino), 100ms'lik meşru paketi işleyemeden 10ms'lik agresif saldırı paketine maruz kalmış ve değeri kabul etmiştir. Sistem hızı anlık olarak 144 km/s olarak okumuş ve [⚠️ ALARM] tetiklenmiştir. CAN protokolünün "Kimlik Doğrulama (Authentication) Eksikliği" zafiyeti başarıyla sömürülmüştür. IDS modeli için "Spoofing (1)" etiketli referans verisidir.

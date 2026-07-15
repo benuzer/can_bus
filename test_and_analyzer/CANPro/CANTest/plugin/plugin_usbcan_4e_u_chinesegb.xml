@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="gb2312"?>
+<resource CompactMode="1" Language="Chinese (PRC)" LANGID="2052">
+	<string id="1" value="没有板载信息。"/>
+	<string id="2" value="没有相关操作。"/>
+	<string id="3" value="请选择设备索引号。"/>
+	<string id="4" value="读取失败。"/>
+	<string id="5" value="中断记录: 0x%02x\nCAN控制器模式寄存器: 0x%02x\nCAN控制器状态寄存器: 0x%02x\nCAN控制器仲裁丢失寄存器: 0x%02x\nCAN控制器错误寄存器: 0x%02x\nCAN控制器错误警告限制寄存器: 0x%02x\nCAN控制器接收错误寄存器: 0x%02x\nCAN控制器发送错误寄存器: 0x%02x"/>
+	<string id="6" value="此设备为非智能卡，没有板载错误信息。"/>
+	<string id="7" value="当前错误码: 0x%02x\n"/>
+	<string id="8" value="错误标识数据: 0x%02x 0x%02x 0x%02x "/>
+	<string id="9" value="错误标识数据: 0x%02x "/>
+	<string id="10" value="错误标识数据: 无"/>
+	<string id="11" value="请输入数据"/>
+	<string id="12" value="当前CAN控制器的地址为0x%02x的控制寄存器的状态值为: 0x%02x"/>
+	<string id="13" value="写入失败"/>
+	<string id="14" value="写入成功"/>
+	<string id="19" value="顺序"/>
+	<string id="20" value="错误码"/>
+	<string id="21" value="错误寄存器值"/>
+	<string id="22" value="CAN控制器内部FIFO溢出"/>
+	<string id="23" value="CAN控制器错误报警"/>
+	<string id="24" value="CAN控制器消极错误"/>
+	<string id="25" value="CAN控制器仲裁丢失"/>
+	<string id="26" value="CAN控制器总线错误"/>
+	<string id="27" value="CAN控制器总线关闭"/>
+	<string id="61451" value="正常模式"/>
+	<string id="61452" value="只听模式"/>
+	<string id="61453" value="通道"/>
+	<string id="61454" value="过滤格式"/>
+	<string id="61455" value="起始ID"/>
+	<string id="61456" value="结束ID"/>
+	<string id="61457" value="标准帧明确ID格式"/>
+	<string id="61458" value="标准帧组ID格式"/>
+	<string id="61459" value="扩展帧明确ID格式"/>
+	<string id="61460" value="扩展帧组ID格式"/>
+	<string id="61528" value="此设备为非智能卡，没有板载信息。"/>
+	<string id="61529" value="设备详细信息: "/>
+	<string id="61530" value="硬件版本: "/>
+	<string id="61531" value="固件版本: "/>
+	<string id="61532" value="驱动版本: "/>
+	<string id="61533" value="动态库版本: "/>
+	<string id="61534" value="板载中断: "/>
+	<string id="61535" value="CAN路数: "/>
+	<string id="61536" value="序列号："/>
+	<string id="61537" value="硬件类型："/>
+	<string id="61538" value="错误码："/>
+	<string id="61539" value="错误标识数据："/>
+	<string id="61540" value="错误说明："/>
+	<string id="61541" value="没有错误"/>
+	<string id="61542" value="CAN控制器内部FIFO溢出\n"/>
+	<string id="61543" value="CAN控制器错误报警\n"/>
+	<string id="61544" value="CAN控制器消极错误\n"/>
+	<string id="61545" value="接收错误计数器："/>
+	<string id="61546" value="发送错误计数器："/>
+	<string id="61547" value="接收时发生"/>
+	<string id="61548" value="发送时发生"/>
+	<string id="61549" value="位错误"/>
+	<string id="61550" value="格式错误 "/>
+	<string id="61551" value="填充错误 "/>
+	<string id="61552" value="其他错误 "/>
+	<string id="61553" value="CAN控制器仲裁丢失\n"/>
+	<string id="61554" value="CAN控制器总线错误\n"/>
+	<string id="61555" value="总线关闭错误\n"/>
+	<string id="61556" value="设备已经打开\n"/>
+	<string id="61557" value="打开设备错误\n"/>
+	<string id="61558" value="设备没有打开\n"/>
+	<string id="61559" value="缓冲区溢出\n"/>
+	<string id="61560" value="此设备不存在\n"/>
+	<string id="61561" value="装载动态库失败\n"/>
+	<string id="61562" value="执行命令失败错误码\n"/>
+	<string id="61563" value="内存不足\n"/>
+	<string id="61564" value="起始ID必须小于结束ID"/>
+	<string id="61565" value="没有选择删除条目"/>
+	<string id="61566" value="设置滤波失败"/>
+	<dialog id="149" caption="参数设置" fontface="MS Shell Dlg" style="-2134376248" position="0, 0, 281, 306">
+		<control class="BUTTON" caption="错误信息" style="1342177287" position="4, 4, 272, 277"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242816" position="108, 288, 60, 15"/>
+		<control id="1001" class="BUTTON" caption="获取错误信息" style="1342242816" position="108, 258, 62, 15"/>
+		<control id="1002" class="SysListView32" style="1350631425" position="12, 15, 256, 233"/>
+	</dialog>
+	<dialog id="1000" caption="打开设备 " fontsize="9" fontface="MS Shell Dlg" style="-2134376256" position="0, 0, 260, 217">
+		<control class="BUTTON" caption=" 设备参数 " style="1342177287" position="17, 17, 227, 50"/>
+		<control caption="设备索引号:" position="25, 37, 53, 10"/>
+		<control id="2015" class="COMBOBOX" style="1344339971" position="78, 34, 39, 121"/>
+		<control caption="第几路CAN:" position="137, 37, 48, 10"/>
+		<control id="1002" class="COMBOBOX" style="1344339971" position="185, 34, 39, 121"/>
+		<control class="BUTTON" caption="初始化参数" style="1342177287" position="17, 75, 227, 87"/>
+		<control caption="波特率:" style="1342308864" position="23, 89, 33, 15"/>
+		<control id="2004" class="COMBOBOX" style="1344340227" position="59, 89, 59, 120"/>
+		<control caption="模式:" style="1342308864" position="139, 89, 25, 13"/>
+		<control id="3004" class="COMBOBOX" style="1344339971" position="171, 89, 59, 46"/>
+		<control id="2002" class="BUTTON" caption="选择所有CAN" style="1342242819" position="161, 54, 62, 11"/>
+		<control id="2006" class="BUTTON" caption="自定义波特率" style="1342242819" position="170, 109, 70, 11"/>
+		<control id="6010" class="EDIT" style="1350631552" position="86, 108, 56, 15"/>
+		<control caption="自定义波特率" style="1342308864" position="23, 109, 60, 13"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="72, 170, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="135, 170, 50, 16"/>
+		<control id="1004" class="BUTTON" caption="确定并启动CAN" style="1342242816" position="71, 194, 114, 16"/>
+		<control caption="K" position="145, 111, 8, 8"/>
+		<control id="6012" caption="提示：自定义波特率可能不准确，可设置一位小数。" style="1342308864" position="24, 126, 214, 19"/>
+		<control id="3" class="BUTTON" caption="路由设置" style="1342242817" position="171, 144, 59, 16"/>
+	</dialog>
+	<dialog id="1001" caption="滤波设置" fontsize="9" fontface="MS Shell Dlg" style="-2134376256" position="0, 0, 240, 279">
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="67, 252, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="123, 252, 50, 16"/>
+		<control class="BUTTON" caption="参数" style="1342177287" position="4, 4, 232, 236"/>
+		<control id="1003" class="SysListView32" caption="List1" style="1350631437" position="12, 16, 216, 148"/>
+		<control caption="通道" position="11, 197, 36, 8"/>
+		<control caption="模式" position="12, 180, 36, 8"/>
+		<control caption="起始帧ID: 0x" position="136, 176, 49, 8"/>
+		<control caption="结束帧ID: 0x" position="136, 196, 49, 8"/>
+		<control id="1004" class="BUTTON" caption="添加" style="1342242816" position="124, 216, 50, 16"/>
+		<control id="1005" class="BUTTON" caption="删除" style="1342242816" position="180, 216, 50, 16"/>
+		<control id="1006" class="BUTTON" caption="开启滤波" style="1342242819" position="12, 220, 96, 10"/>
+		<control id="1007" class="COMBOBOX" style="1344340227" position="47, 193, 84, 64"/>
+		<control id="1008" class="COMBOBOX" style="1344340227" position="48, 176, 84, 64"/>
+		<control id="1009" class="EDIT" style="1350631552" position="188, 172, 40, 14"/>
+		<control id="1010" class="EDIT" style="1350631552" position="188, 192, 40, 14"/>
+	</dialog>
+	<dialog id="1008" caption="路由设置" fontface="MS Shell Dlg" style="-2134376256" position="0, 0, 243, 182">
+		<control class="BUTTON" caption="CAN0" style="1342177287" position="21, 19, 200, 33"/>
+		<control id="6013" class="BUTTON" caption="CAN1" style="1342242819" position="51, 34, 34, 10"/>
+		<control id="6014" class="BUTTON" caption="CAN2" style="1342242819" position="104, 34, 34, 10"/>
+		<control id="6015" class="BUTTON" caption="CAN3" style="1342242819" position="157, 34, 34, 10"/>
+		<control class="BUTTON" caption="CAN1" style="1342177287" position="21, 53, 200, 33"/>
+		<control id="6016" class="BUTTON" caption="CAN0" style="1342242819" position="51, 69, 34, 10"/>
+		<control id="6017" class="BUTTON" caption="CAN2" style="1342242819" position="104, 69, 34, 10"/>
+		<control id="6018" class="BUTTON" caption="CAN3" style="1342242819" position="157, 69, 34, 10"/>
+		<control class="BUTTON" caption="CAN2" style="1342177287" position="22, 87, 200, 33"/>
+		<control id="6019" class="BUTTON" caption="CAN0" style="1342242819" position="51, 102, 34, 10"/>
+		<control id="6020" class="BUTTON" caption="CAN1" style="1342242819" position="104, 102, 34, 10"/>
+		<control id="6021" class="BUTTON" caption="CAN3" style="1342242819" position="157, 102, 34, 10"/>
+		<control class="BUTTON" caption="CAN3" style="1342177287" position="22, 121, 200, 33"/>
+		<control id="6022" class="BUTTON" caption="CAN0" style="1342242819" position="51, 135, 34, 10"/>
+		<control id="6023" class="BUTTON" caption="CAN1" style="1342242819" position="104, 135, 34, 10"/>
+		<control id="6024" class="BUTTON" caption="CAN2" style="1342242819" position="157, 135, 34, 10"/>
+		<control id="6025" class="BUTTON" caption="全选" style="1342242819" position="22, 158, 32, 10"/>
+		<control id="6026" class="BUTTON" caption="确定" style="1342242816" position="93, 157, 58, 17"/>
+		<control caption="提示：需要打开目标通道才能转发" position="21, 8, 198, 8"/>
+	</dialog>
+</resource>

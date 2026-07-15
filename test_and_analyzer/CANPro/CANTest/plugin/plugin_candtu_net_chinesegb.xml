@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?>
+<resource CompactMode="1" Language="Chinese (PRC)" LANGID="2052">
+	<string id="1" value="没有板载信息。"/>
+	<string id="20" value="客户端"/>
+	<string id="21" value="服务器"/>
+	<string id="22" value="服务器"/>
+	<string id="23" value="设备未连接"/>
+	<string id="24" value="序号"/>
+	<string id="25" value="时间"/>
+	<string id="26" value="经度"/>
+	<string id="27" value="纬度"/>
+	<string id="28" value="速度"/>
+	<dialog id="1200" caption="打开设备 - CANDTU-NET" fontface="MS Shell Dlg" style="-1865940800" position="0, 0, 204, 203">
+		<control caption="本机端口:" style="1342308354" styleex="4096" position="13, 80, 64, 8"/>
+		<control id="1005" class="EDIT" style="1350631552" position="82, 79, 46, 13"/>
+		<control caption="目标IP地址:" style="1342308354" styleex="4096" position="13, 119, 64, 8"/>
+		<control id="1006" class="SysIPAddress32" caption="IPAddress1" style="1342242816" position="82, 116, 91, 13"/>
+		<control caption="目标端口:" style="1342308354" styleex="4096" position="13, 138, 64, 8"/>
+		<control id="1007" class="EDIT" style="1350631552" position="82, 135, 91, 13"/>
+		<control class="BUTTON" caption="CANDTU-NET 客户端 " style="1342177287" position="4, 100, 193, 55"/>
+		<control caption="设备索引号:" style="1342308354" styleex="4096" position="13, 10, 64, 8"/>
+		<control id="1008" class="COMBOBOX" style="1344339971" position="82, 6, 46, 191"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="46, 159, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="109, 159, 50, 16"/>
+		<control id="1004" class="BUTTON" caption="确定并启动CAN" style="1342242816" position="46, 179, 113, 16"/>
+		<control caption="工作方式:" style="1342308354" styleex="4096" position="13, 56, 64, 8"/>
+		<control id="1000" class="COMBOBOX" style="1344339971" position="82, 53, 46, 114"/>
+		<control caption="通道号:" style="1342308354" styleex="4096" position="13, 30, 64, 8"/>
+		<control id="1001" class="COMBOBOX" style="1344339971" position="82, 30, 46, 114"/>
+		<control id="1002" class="BUTTON" caption="选择所有通道" style="1342242819" position="136, 32, 64, 10"/>
+	</dialog>
+	<dialog id="1201" caption="GPS信息-设备" fontface="MS Shell Dlg" style="-2134245176" position="0, 0, 327, 212">
+		<control id="2" class="BUTTON" caption="关闭" style="1342242817" position="274, 191, 50, 14"/>
+		<control id="1001" class="SysListView32" style="1350633473" position="7, 7, 317, 181"/>
+		<control id="1003" class="BUTTON" caption="清空" style="1342242816" position="7, 191, 50, 14"/>
+		<control id="1004" class="BUTTON" caption="add" style="1342242816" position="75, 191, 50, 14"/>
+	</dialog>
+	<dialog id="1202" caption="设备信息" fontface="MS Shell Dlg" style="-2134376248" position="0, 0, 178, 73">
+		<control id="1" class="BUTTON" caption="关闭" style="1342242817" position="64, 52, 50, 14"/>
+		<control caption="远程地址：" styleex="4096" position="14, 33, 52, 8"/>
+		<control caption="远程设备：" styleex="4096" position="14, 17, 52, 8"/>
+		<control id="1009" class="EDIT" style="1484851328" styleex="4096" position="66, 31, 98, 14"/>
+		<control id="1010" class="EDIT" style="1484851328" styleex="4096" position="66, 12, 98, 14"/>
+	</dialog>
+</resource>

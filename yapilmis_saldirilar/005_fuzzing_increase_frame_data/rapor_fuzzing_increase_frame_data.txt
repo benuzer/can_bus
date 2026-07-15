@@ -1,0 +1,16 @@
+📂 Rapor 4.1: Data (Payload) Fuzzing Saldırısı
+Saldırı Türü: Payload Fuzzing (Veri Alanı Tarama)
+
+Amaç: Ağdaki geçerli/meşru bir ID'yi (hız verisi) kullanarak, ECU'nun sınır dışı (out-of-bounds) veya anlamsız verilere karşı durum makinesi (state machine) dayanıklılığını test etmek.
+
+Saldırı Parametreleri (CANPro):
+
+ID: 101 (Sabit - Hız ID'si)
+
+Data: Increase frame Data (Aktif) - Veri alanı her pakette mutasyona uğratıldı.
+
+Interval: 10 ms
+
+Hedef ECU Davranışı: ECU paketin ID'sini tanıdığı için reddetmedi ve işlemeye çalıştı. Ancak veri alanı sürekli mantıksız değerler (00'dan FF'e kadar) aldığı için hız göstergesi / motor mantığı simülasyonunda geçersiz durumlar (invalid states) oluştu.
+
+Kayıt ve IDS Önemi: fuzzing_increase_frame_data.txt olarak kaydedildi. Bu veri seti, IDS (Yapay Zeka) modeline "Sadece ID'ye güvenme, paketin içindeki verinin (Deep Packet Inspection) mantıksal değişim hızına da bak" demeyi öğretecektir.

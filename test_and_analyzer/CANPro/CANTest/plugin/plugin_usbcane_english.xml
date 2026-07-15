@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<resource CompactMode="1" Langauage="Chinese (PRC)">
+  <string id="1" value="No information on board."/>
+  <string id="2" value="No Operation."/>
+  <string id="3" value="Please Select the Device Index."/>
+  <string id="4" value="Read Failed."/>
+  <string id="5" value="Interrupt: 0x%02x\nCAN Mode Register: 0x%02x\nCAN Status Register: 0x%02x\nCAN Arbitration Lost Capture Register: 0x%02x\nCAN Error Code Capture Register: 0x%02x\nCAN Error Warning Limit Register: 0x%02x\nCAN Rx Error Counter Register: 0x%02x\nCAN Tx Error Counter Register: 0x%02x"/>
+  <string id="6" value="This device has no information on board."/>
+  <string id="7" value="Error Code: 0x%02x\n"/>
+  <string id="8" value="Error Data: 0x%02x 0x%02x 0x%02x "/>
+  <string id="9" value="Error Data: 0x%02x "/>
+  <string id="10" value="Error Data: None"/>
+  <string id="11" value="Please input data."/>
+  <string id="12" value="The register's address: 0x%02x   Value: 0x%02x"/>
+  <string id="13" value="Write Failed."/>
+  <string id="14" value="Write Failed."/>
+  <string id="19" value="index"/>
+  <string id="20" value="ErrCode"/>
+  <string id="21" value="ErrReg"/>
+  <string id="22" value="FIFO Overflow"/>
+  <string id="23" value="Alarm"/>
+  <string id="24" value="Passive"/>
+  <string id="25" value="Lost"/>
+  <string id="26" value="Bus Error"/>
+  <string id="27" value="Bus Off"/>
+  <string id="61451" value="Normal Mode"/>
+  <string id="61452" value="Listen Mode"/>
+  <string id="61453" value="Channel"/>
+  <string id="61454" value="Format"/>
+  <string id="61455" value="StartID"/>
+  <string id="61456" value="EndID"/>
+  <string id="61457" value="Standard Single Frame"/>
+  <string id="61458" value="Standard Group Frame"/>
+  <string id="61459" value="Extend Single Frame"/>
+  <string id="61460" value="Extend Group Frame"/>
+  <string id="61528" value="The device has no device information."/>
+  <string id="61529" value="Device Information: "/>
+  <string id="61530" value="Hardware Verion: "/>
+  <string id="61531" value="Firmware Version: "/>
+  <string id="61532" value="Driver Version: "/>
+  <string id="61533" value="DLL Version: "/>
+  <string id="61534" value="Interrupt: "/>
+  <string id="61535" value="CAN Count: "/>
+  <string id="61536" value="SN: "/>
+  <string id="61537" value="Type: "/>
+	<string id="61538" value="Error Code："/>
+	<string id="61539" value="Error Data："/>
+	<string id="61540" value="Error Info"/>
+	<string id="61541" value="No Error"/>
+	<string id="61542" value="FIFO over\n"/>
+	<string id="61543" value="Error warnnig\n"/>
+	<string id="61544" value="Passive Error\n"/>
+	<string id="61545" value="Recevie Error count："/>
+	<string id="61546" value="Send Error count："/>
+	<string id="61547" value="happened when recive"/>
+	<string id="61548" value="happened when send"/>
+	<string id="61549" value="Bit Error"/>
+	<string id="61550" value="Format Error "/>
+	<string id="61551" value="Fill Error "/>
+	<string id="61552" value="Other Error "/>
+	<string id="61553" value="Arbitration  Lost\n"/>
+	<string id="61554" value="Bus Error\n"/>
+	<string id="61555" value="Bus off\n"/>
+	<string id="61556" value="Device is opened\n"/>
+	<string id="61557" value="Select Device Error\n"/>
+	<string id="61558" value="Device is not open\n"/>
+	<string id="61559" value="buffer over\n"/>
+	<string id="61560" value="Device is not exsit\n"/>
+	<string id="61561" value="Load dll fail\n"/>
+	<string id="61562" value="Command Fail\n"/>
+	<string id="61563" value="memory is full\n"/>
+  <string id="61564" value="StartID should be bigger than EndID"/>
+  <string id="61565" value="Haven't choose any item"/>
+  <string id="61566" value="Set filter table failed"/>
+
+  <dialog id="149" caption="Device Operation" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 280, 343">
+    <control class="BUTTON" caption="ErrInfo" style="1342177287" position="4, 4, 272, 300"/>
+    <control id="1" class="BUTTON" caption="OK" style="1342242816" position="108, 316, 60, 16"/>
+    <control id="1001" class="BUTTON" caption="Read" style="1342242816" position="108, 280, 62, 16"/>
+    <control id="1002" class="SysListView32" caption="List1" style="1350631425" position="12, 16, 256, 252"/>
+  </dialog>
+  <dialog id="1000" caption="Select Device" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 260, 210">
+    <control id="1" class="BUTTON" caption="OK" style="1342242817" position="72, 138, 50, 16"/>
+    <control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="135, 138, 50, 16"/>
+    <control class="BUTTON" caption=" DeviceParameter " style="1342177287" position="17, 17, 227, 50"/>
+    <control caption="DeviceIndex:" position="25, 37, 53, 10"/>
+    <control id="2015" class="COMBOBOX" style="1344339971" position="78, 34, 39, 121"/>
+    <control caption="CAN Index:" position="137, 37, 48, 10"/>
+    <control id="1002" class="COMBOBOX" style="1344339971" position="185, 34, 39, 121"/>
+    <control class="BUTTON" caption="InitParameter" style="1342177287" position="17, 75, 227, 50"/>
+    <control caption="Baud:" style="1342308864" position="23, 89, 33, 15"/>
+    <control id="2004" class="COMBOBOX" style="1344340227" position="59, 87, 59, 120"/>
+    <control caption="Mode:" style="1342308864" position="139, 89, 25, 13"/>
+    <control id="3004" class="COMBOBOX" style="1344339971" position="171, 87, 59, 46"/>
+    <control id="2002" class="BUTTON" caption="Select All" style="1342242819" position="161, 54, 62, 11"/>
+    <control id="2006" class="BUTTON" caption="Customize" style="1342242819" position="176, 110, 62, 11"/>
+    <control id="6010" class="EDIT" style="1350631552" position="112, 107, 56, 15"/>
+    <control caption="CustomizeRegister:0x" style="1342308864" position="25, 107, 85, 13"/>
+    <control id="1004" class="BUTTON" caption="Open And Start CAN" style="1342242816" position="71, 162, 114, 16"/>
+  </dialog>
+  <dialog id="1001" caption="Filter Table" fontsize="9" fontface="新宋体" style="-2134376256" position="0, 0, 240, 279">
+    <control id="1" class="BUTTON" caption="OK" style="1342242817" position="67, 252, 50, 16"/>
+    <control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="123, 252, 50, 16"/>
+    <control class="BUTTON" caption="Filter Table" style="1342177287" position="4, 4, 232, 236"/>
+    <control id="1003" class="SysListView32" caption="List1" style="1350631437" position="12, 16, 216, 148"/>
+    <control caption="Channel" position="11, 197, 36, 8"/>
+    <control caption="Mode" position="12, 180, 36, 8"/>
+    <control caption="StartID 0x" position="136, 176, 49, 8"/>
+    <control caption="EndID 0x" position="136, 196, 49, 8"/>
+    <control id="1004" class="BUTTON" caption="Add" style="1342242816" position="124, 216, 50, 16"/>
+    <control id="1005" class="BUTTON" caption="Delete" style="1342242816" position="180, 216, 50, 16"/>
+    <control id="1006" class="BUTTON" caption="Enable filter" style="1342242819" position="12, 220, 96, 10"/>
+    <control id="1007" class="COMBOBOX" style="1344340227" position="47, 193, 84, 64"/>
+    <control id="1008" class="COMBOBOX" style="1344340227" position="48, 176, 84, 64"/>
+    <control id="1009" class="EDIT" style="1350631552" position="188, 172, 40, 14"/>
+    <control id="1010" class="EDIT" style="1350631552" position="188, 192, 40, 14"/>
+  </dialog>
+</resource>

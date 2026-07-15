@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="gb2312"?>
+<resource CompactMode="1" Language="Chinese (PRC)" LANGID="2052">
+	<string id="128" value="CANTest    广州致远电子股份有限公司 版权所有  "/>
+	<string id="129" value="\nCantes\nCantes\n\n\nCantest.Document\nCantes Document"/>
+	<string id="151" value="Language\nLanguage"/>
+	<string id="32772" value="选择设备\n选择设备"/>
+	<string id="32774" value="格式:\n格式:"/>
+	<string id="32775" value="帧ID显示方式:\n帧ID显示方式:"/>
+	<string id="32777" value="继续显示\n继续显示"/>
+	<string id="32778" value="暂停显示\n暂停显示"/>
+	<string id="32779" value="滚动显示\n滚动"/>
+	<string id="32780" value="显示帧数\n显示帧数"/>
+	<string id="32782" value="关于\n关于"/>
+	<string id="32887" value="滤波设置\n滤波设置"/>
+	<string id="32888" value="启动通道\n启动"/>
+	<string id="32889" value="停止通道\n停止"/>
+	<string id="32890" value="关闭通道\n关闭"/>
+	<string id="32891" value="定位到指定位置...\n定位"/>
+	<string id="32892" value="保存数据\n保存"/>
+	<string id="32893" value="设备操作\n设备操作"/>
+	<string id="32898" value="隐藏发送帧\n隐藏发送帧"/>
+	<string id="32901" value="显示发送帧\n显示发送帧"/>
+	<string id="32902" value="清空数据\n清空"/>
+	<string id="32915" value="软件更新\n软件更新"/>
+	<string id="32916" value="DBC\nDBC"/>
+	<string id="32931" value="实时保存\n实时保存"/>
+	<string id="32932" value="停止保存\n停止保存"/>
+	<string id="32934" value="BusFlow\nBusFlow"/>
+	<string id="32935" value="错误信息\n错误信息"/>
+	<string id="32937" value="发送文件\n发送文件"/>
+	<string id="57344" value="CANTest"/>
+	<string id="57345" value=" "/>
+	<string id="57600" value="建立新文档\n新建"/>
+	<string id="57601" value="打开一个现有文档\n打开"/>
+	<string id="57602" value="关闭活动文档\n关闭"/>
+	<string id="57603" value="保存活动文档\n保存"/>
+	<string id="57604" value="将活动文档以一个新文件名保存\n另存为"/>
+	<string id="57605" value="改变打印选项\n页面设置"/>
+	<string id="57606" value="改变打印机及打印选项\n打印设置"/>
+	<string id="57607" value="打印活动文档\n打印"/>
+	<string id="57609" value="显示整页\n打印预览"/>
+	<string id="57616" value="打开该文档"/>
+	<string id="57617" value="打开该文档"/>
+	<string id="57618" value="打开该文档"/>
+	<string id="57619" value="打开该文档"/>
+	<string id="57620" value="打开该文档"/>
+	<string id="57621" value="打开该文档"/>
+	<string id="57622" value="打开该文档"/>
+	<string id="57623" value="打开该文档"/>
+	<string id="57624" value="打开该文档"/>
+	<string id="57625" value="打开该文档"/>
+	<string id="57626" value="打开该文档"/>
+	<string id="57627" value="打开该文档"/>
+	<string id="57628" value="打开该文档"/>
+	<string id="57629" value="打开该文档"/>
+	<string id="57630" value="打开该文档"/>
+	<string id="57631" value="打开该文档"/>
+	<string id="57632" value="删除被选对象\n删除"/>
+	<string id="57633" value="全部删除\n全部删除"/>
+	<string id="57634" value="复制被选对象并将其置于剪贴板上\n复制"/>
+	<string id="57635" value="剪切被选对象并将其置于剪贴板上\n剪切"/>
+	<string id="57636" value="查找指定的正文\n查找"/>
+	<string id="57637" value="插入剪贴板内容\n粘贴"/>
+	<string id="57640" value="重复上一步操作\n重复"/>
+	<string id="57641" value="用不同的正文替换指定的正文\n替换"/>
+	<string id="57642" value="选择整个文档\n选择全部"/>
+	<string id="57643" value="撤消最后一步操作\n撤消"/>
+	<string id="57644" value="重新执行先前已撤消的操作\n重新执行"/>
+	<string id="57648" value="为活动文档打开另一个窗口\n新建窗口"/>
+	<string id="57649" value="将图标排列在窗口底部\n排列图标"/>
+	<string id="57650" value="排列窗口成相互重叠\n层叠窗口"/>
+	<string id="57651" value="排列窗口成互不重叠\n平铺窗口"/>
+	<string id="57652" value="排列窗口成互不重叠\n平铺窗口"/>
+	<string id="57653" value="将活动的窗口分隔成窗格\n分隔"/>
+	<string id="57664" value="显示程序信息，版本号和版权\n关于"/>
+	<string id="57665" value="退出应用程序；提示保存文档\n退出"/>
+	<string id="57680" value="切换到下一个窗格\n下一窗格"/>
+	<string id="57681" value="切换回前一个窗格\n前一窗格"/>
+	<string id="59136" value="扩展名"/>
+	<string id="59137" value="大写"/>
+	<string id="59138" value="数字"/>
+	<string id="59139" value="滚动"/>
+	<string id="59140" value="改写"/>
+	<string id="59141" value="记录"/>
+	<string id="59392" value="显示或隐藏工具栏\n显隐工具栏"/>
+	<string id="59393" value="显示或隐藏状态栏\n显隐状态栏"/>
+	<string id="61184" value="改变窗口大小"/>
+	<string id="61185" value="改变窗口位置"/>
+	<string id="61186" value="将窗口缩小成图标"/>
+	<string id="61187" value="把窗口放大到最大尺寸"/>
+	<string id="61188" value="切换到下一个文档窗口"/>
+	<string id="61189" value="切换到先前的文档窗口"/>
+	<string id="61190" value="关闭活动的窗口并提示保存所有文档"/>
+	<string id="61202" value="把窗口恢复到正常大小"/>
+	<string id="61203" value="激活任务表"/>
+	<string id="61215" value="激活该窗口"/>
+	<string id="61445" value="关闭打印预览模式\n取消预阅"/>
+	<string id="61446" value="二进制"/>
+	<string id="61447" value="十进制"/>
+	<string id="61448" value="十六进制"/>
+	<string id="61449" value="真实ID(ID靠右对齐)"/>
+	<string id="61450" value="SJA1000寄存器格式(ID靠左对齐)"/>
+	<string id="61451" value="正常"/>
+	<string id="61452" value="只听"/>
+	<string id="61453" value="%s 设备:%d 通道:%d"/>
+	<string id="61454" value="工具栏"/>
+	<string id="61488" value="发送总耗时:  %.3f毫秒    "/>
+	<string id="61489" value="序号"/>
+	<string id="61490" value="传输方向"/>
+	<string id="61491" value="第几路CAN"/>
+	<string id="61492" value="时间标识"/>
+	<string id="61493" value="帧ID"/>
+	<string id="61494" value="帧格式"/>
+	<string id="61495" value="帧类型"/>
+	<string id="61496" value="数据长度"/>
+	<string id="61497" value="数据(HEX)"/>
+	<string id="61498" value="视图"/>
+	<string id="61499" value="发送"/>
+	<string id="61500" value="接收"/>
+	<string id="61501" value="无"/>
+	<string id="61502" value="数据帧"/>
+	<string id="61503" value="远程帧"/>
+	<string id="61504" value="标准帧"/>
+	<string id="61505" value="扩展帧"/>
+	<string id="61506" value="启动设备失败。"/>
+	<string id="61507" value="Data File(*.txt)|*.txt||"/>
+	<string id="61508" value="序号          传输方向  接收时间标识       帧ID        帧格式  帧类型  数据长度   数据\n"/>
+	<string id="61509" value="创建文件失败。"/>
+	<string id="61510" value="基本操作"/>
+	<string id="61511" value="高级操作"/>
+	<string id="61512" value="正常发送"/>
+	<string id="61513" value="单次发送"/>
+	<string id="61514" value="自发自收"/>
+	<string id="61515" value="单次自发自收"/>
+	<string id="61516" value="发送失败。"/>
+	<string id="61517" value=" "/>
+	<string id="61518" value="发送耗时(s):"/>
+	<string id="61519" value=" "/>
+	<string id="61520" value="接收帧数:"/>
+	<string id="61521" value=" "/>
+	<string id="61522" value="清空计数"/>
+	<string id="61523" value="发送帧数:"/>
+	<string id="61524" value=" "/>
+	<string id="61525" value="请至少选择一帧数据"/>
+	<string id="61526" value="暂停显示"/>
+	<string id="61527" value="停止滚动"/>
+	<string id="61528" value="此设备为非智能卡，没有板载信息。"/>
+	<string id="61529" value="设备详细信息: "/>
+	<string id="61530" value="硬件版本: "/>
+	<string id="61531" value="固件版本: "/>
+	<string id="61532" value="驱动版本: "/>
+	<string id="61533" value="动态库版本: "/>
+	<string id="61534" value="板载中断: "/>
+	<string id="61535" value="CAN路数: "/>
+	<string id="61536" value="序列号: "/>
+	<string id="61537" value="硬件类型: "/>
+	<string id="61538" value="滤波器1\n"/>
+	<string id="61539" value="滤波器2\n"/>
+	<string id="61540" value="接收所有数据"/>
+	<string id="61541" value="标准帧 单滤波 (设定接收单个ID)"/>
+	<string id="61542" value="扩展帧 单滤波 (设定接收单个ID)"/>
+	<string id="61543" value="标准帧 单滤波 (仅ID, 自由设定)"/>
+	<string id="61544" value="标准帧 单滤波 (含ID, RTR和部分数据, 自由设定)"/>
+	<string id="61545" value="标准帧 双滤波 (仅ID, 自由设定)"/>
+	<string id="61546" value="标准帧 双滤波 (含ID, RTR和部分数据, 自由设定)"/>
+	<string id="61547" value="扩展帧 单滤波 (仅ID, 自由设定)"/>
+	<string id="61548" value="扩展帧 单滤波 (含ID和RTR, 自由设定)"/>
+	<string id="61549" value="扩展帧 双滤波 (仅含部分ID, 自由设定)"/>
+	<string id="61550" value="单滤波"/>
+	<string id="61551" value="双滤波"/>
+	<string id="61552" value="范围无效，请重设。"/>
+	<string id="61553" value="选择设备"/>
+	<string id="61554" value="帧ID溢出。标准帧有效范围0 - 0x7ff , 扩展帧有效范围 0 - 0x1fffffffff 。"/>
+	<string id="61555" value="初始化CAN失败。"/>
+	<string id="61556" value="启动CAN失败。"/>
+	<string id="61557" value="发现新版本，是否需要更新?"/>
+	<string id="61558" value="CANTest 更新提示"/>
+	<menu id="128">
+		<menuitem caption="文件(&amp;F)">
+			<menuitem id="57600" caption="新建(&amp;N)\tCtrl+N"/>
+			<menuitem id="57601" caption="打开(&amp;O)...\tCtrl+O"/>
+			<menuitem/>
+			<menuitem id="57606" caption="打印设置(&amp;R)..."/>
+			<menuitem/>
+			<menuitem id="57616" caption="最近文件"/>
+			<menuitem/>
+			<menuitem id="57665" caption="退出(&amp;X)"/>
+		</menuitem>
+		<menuitem caption="查看(&amp;V)">
+			<menuitem id="59392" caption="工具栏(&amp;T)"/>
+			<menuitem id="59393" caption="状态栏(&amp;S)"/>
+		</menuitem>
+		<menuitem caption="帮助(&amp;H)">
+			<menuitem id="57664" caption="关于 cantest(&amp;A)..."/>
+		</menuitem>
+	</menu>
+	<menu id="131">
+		<menuitem caption="选择设备">
+			<menuitem id="32886" caption="[dev]"/>
+		</menuitem>
+	</menu>
+	<menu id="139">
+		<menuitem caption="设备操作">
+			<menuitem id="32895" caption="设备信息"/>
+			<menuitem id="32896" caption="参数设置"/>
+		</menuitem>
+	</menu>
+	<menu id="144">
+		<menuitem caption="接收时间标识">
+			<menuitem id="32899" caption="原始值"/>
+			<menuitem id="32900" caption="实际时间(s)"/>
+		</menuitem>
+	</menu>
+	<menu id="151">
+		<menuitem caption="Language">
+			<menuitem id="32903" caption="[lang]"/>
+		</menuitem>
+	</menu>
+	<dialog id="100" caption="关于 CANTest" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 260, 132">
+		<control resource="128" style="1342177283" position="11, 16, 20, 20"/>
+		<control id="1002" caption="CANTest    版本: " style="1342308480" position="47, 19, 72, 8"/>
+		<control caption="版权所有 (C) 2004-2018, 广州致远电子有限公司" position="35, 107, 181, 8"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342373889" position="191, 17, 50, 16"/>
+		<control style="1342177288" position="9, 99, 242, 1"/>
+		<control caption="电话: 400-888-4005" position="47, 49, 121, 8"/>
+		<control caption="邮箱:" position="47, 65, 25, 8"/>
+		<control caption="主页:" position="47, 83, 23, 8"/>
+		<control id="1022" caption="support@zlg.cn" position="75, 65, 124, 11"/>
+		<control id="1023" caption="www.zlg.cn/canbus" position="75, 83, 131, 11"/>
+		<control id="1025" caption="2.68" position="124, 19, 43, 8"/>
+	</dialog>
+	<dialog id="135" caption="定位..." fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 118, 53">
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="13, 32, 39, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="62, 32, 39, 16"/>
+		<control caption="定位到第" position="10, 14, 33, 8"/>
+		<control id="1019" class="EDIT" style="1350631552" position="46, 11, 40, 12"/>
+		<control id="1020" class="msctls_updown32" caption="Spin2" style="1342177312" position="85, 11, 11, 12"/>
+		<control caption="行" position="99, 13, 9, 8"/>
+	</dialog>
+	<dialog id="136" caption="选择设备" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 274, 187">
+		<control id="1001" class="COMBOBOX" style="1344339971" position="67, 9, 52, 115"/>
+		<control id="1002" class="COMBOBOX" style="1344339971" position="177, 9, 52, 115"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="71, 137, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="135, 138, 50, 16"/>
+		<control id="1004" class="BUTTON" caption="确定并启动CAN" style="1342242816" position="71, 162, 114, 16"/>
+		<control caption="设备索引号:" style="1342308354" position="4, 13, 58, 8"/>
+		<control caption="通道号:" style="1342308354" position="122, 13, 50, 8"/>
+		<control id="1003" class="BUTTON" caption="同时打开全部CAN通道" style="1342242819" position="146, 26, 110, 10"/>
+		<control id="1011" class="COMBOBOX" style="1344339971" position="67, 54, 52, 134"/>
+		<control id="3005" class="EDIT" style="1350631552" position="206, 56, 30, 14"/>
+		<control id="3006" class="EDIT" style="1350631552" position="206, 76, 30, 14"/>
+		<control caption="定时器0(BTR0):0x" position="138, 60, 65, 8"/>
+		<control caption="波特率:" style="1342308354" position="14, 58, 48, 8"/>
+		<control caption="定时器1(BTR1):0x" position="138, 80, 65, 8"/>
+		<control id="1016" class="BUTTON" caption="使用自定义波特率" style="1342242819" position="40, 80, 80, 10"/>
+		<control style="1342177296" position="24, 94, 218, 1"/>
+		<control style="1342177297" position="24, 74, 1, 22"/>
+		<control style="1342177296" position="26, 74, 103, 1"/>
+		<control style="1342177296" position="128, 52, 113, 1"/>
+		<control style="1342177297" position="240, 52, 1, 44"/>
+		<control style="1342177297" position="128, 52, 1, 24"/>
+		<control style="1342177296" position="3, 42, 267, 1"/>
+		<control id="1014" caption="工作模式:" position="23, 106, 36, 8"/>
+		<control id="3004" class="COMBOBOX" style="1344339971" position="67, 102, 162, 98"/>
+		<control style="1342177296" position="3, 126, 267, 1"/>
+	</dialog>
+	<dialog id="145" caption="显示帧数" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 160, 60">
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="22, 34, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="80, 34, 50, 16"/>
+		<control caption="显示帧数:" style="1342308354" position="8, 14, 48, 8"/>
+		<control id="1005" class="EDIT" style="1350631552" position="59, 10, 73, 14"/>
+	</dialog>
+	<dialog id="146" fontsize="9" fontface="宋体" style="1073741888" position="0, 0, 467, 194">
+		<control id="1020" class="BUTTON" caption="Button1" style="1342242827" position="1, 180, 6, 14"/>
+		<control id="1017" class="BUTTON" caption="发送" style="1476460544" position="401, 28, 45, 16"/>
+		<control id="1013" class="EDIT" style="1350631552" position="195, 29, 44, 14"/>
+		<control id="1015" class="EDIT" style="1350631552" position="291, 29, 104, 14"/>
+		<control class="BUTTON" style="1342177287" position="135, 0, 312, 25"/>
+		<control id="1038" caption="发送方式:" style="1342308354" position="10, 12, 48, 8"/>
+		<control id="1007" class="COMBOBOX" style="1344339971" position="62, 8, 68, 174"/>
+		<control id="1039" caption="帧类型:" style="1342308354" position="3, 33, 55, 8"/>
+		<control id="1008" class="COMBOBOX" style="1344339971" position="62, 29, 68, 174"/>
+		<control id="1040" caption="帧格式:" style="1342308354" position="3, 54, 55, 8"/>
+		<control id="1009" class="COMBOBOX" style="1344339971" position="62, 50, 68, 174"/>
+		<control id="1010" class="BUTTON" caption="每次发送单帧" style="1342308361" position="140, 10, 77, 10"/>
+		<control id="1011" class="BUTTON" caption="每次发送" style="1342177289" position="224, 10, 48, 10"/>
+		<control id="1012" class="BUTTON" caption="帧ID每发送一帧递增" style="1342242819" position="337, 10, 97, 10"/>
+		<control id="1041" caption="帧ID(HEX):" style="1342308354" position="131, 33, 61, 8"/>
+		<control id="1042" caption="发送次数:" style="1342308354" position="144, 53, 47, 8"/>
+		<control id="1014" class="EDIT" style="1350631552" position="195, 49, 44, 14"/>
+		<control id="1043" caption="数据(HEX):" style="1342308354" position="240, 33, 48, 8"/>
+		<control id="1044" caption="每次发送间隔(ms):" style="1342308354" position="251, 53, 76, 8"/>
+		<control id="1016" class="EDIT" style="1350631552" position="331, 49, 39, 14"/>
+		<control id="1018" class="BUTTON" caption="停止" style="1476460544" position="401, 49, 45, 16"/>
+		<control id="1019" class="EDIT" style="1350631552" position="272, 7, 27, 14"/>
+		<control id="1045" caption="帧" position="301, 10, 25, 8"/>
+	</dialog>
+	<dialog id="147" fontsize="9" fontface="宋体" style="1073741888" position="0, 0, 610, 155">
+		<control id="1020" class="BUTTON" caption="Button1" style="1342242827" position="0, 141, 6, 14"/>
+		<control id="1038" caption="发送方式:" style="1342308354" position="387, 10, 48, 8"/>
+		<control id="1007" class="COMBOBOX" style="1344339971" styleex="32" position="439, 6, 68, 174"/>
+		<control id="1042" caption="发送次数:" style="1342308354" position="387, 30, 47, 8"/>
+		<control id="1014" class="EDIT" style="1350631552" position="439, 26, 68, 14"/>
+		<control id="1044" caption="每次发送间隔(ms):" style="1342308354" position="386, 50, 76, 8"/>
+		<control id="1016" class="EDIT" style="1350631552" position="468, 46, 39, 14"/>
+		<control id="1017" class="BUTTON" caption="发送" style="1476460544" position="400, 85, 45, 16"/>
+		<control id="1018" class="BUTTON" caption="停止" style="1476460544" position="455, 85, 45, 16"/>
+		<control id="1021" class="XTPReport" style="1342242816" styleex="131072" position="13, 0, 369, 155"/>
+		<control id="1045" caption="每帧发送间隔(ms):" style="1342308354" position="386, 67, 76, 8"/>
+		<control id="1019" class="EDIT" style="1350631552" position="468, 63, 39, 14"/>
+		<control id="1022" class="BUTTON" caption="导出列表" style="1342242816" position="507, 85, 45, 16"/>
+		<control id="1023" class="BUTTON" caption="导入列表" style="1342242816" position="562, 85, 45, 16"/>
+		<control id="1047" class="COMBOBOX" style="1344339971" position="553, 5, 48, 54"/>
+		<control id="1048" caption="数据格式" position="514, 9, 33, 8"/>
+	</dialog>
+	<dialog id="150" caption="滤波设置" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 575, 284">
+		<control id="1022" class="COMBOBOX" style="1344339971" position="93, 12, 201, 188"/>
+		<control id="1033" class="EDIT" style="1350631552" position="352, 11, 50, 14"/>
+		<control id="1034" class="EDIT" style="1082196096" position="497, 270, 42, 14"/>
+		<control id="1035" class="BUTTON" caption="提交" style="1342242816" position="414, 10, 50, 16"/>
+		<control id="1030" class="COMBOBOX" style="1344339971" position="71, 208, 70, 94"/>
+		<control id="1008" class="COMBOBOX" style="1344339971" position="200, 208, 65, 108"/>
+		<control id="1024" class="EDIT" style="1350631552" position="331, 207, 59, 14"/>
+		<control id="1025" class="EDIT" style="1350631552" position="457, 207, 59, 14"/>
+		<control id="1032" class="BUTTON" caption="计算器" style="1342242816" position="496, 155, 50, 16"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="213, 249, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="289, 249, 50, 16"/>
+		<control caption="滤波模式选择:" style="1342308354" position="15, 15, 74, 9"/>
+		<control id="1023" class="XTPReport" style="1342242816" styleex="131072" position="17, 46, 539, 104"/>
+		<control class="BUTTON" style="1342177287" position="9, 34, 556, 150"/>
+		<control caption="验收码: 0x" style="1342308354" position="275, 211, 53, 8"/>
+		<control caption="屏蔽码: 0x" style="1342308354" position="400, 211, 53, 8"/>
+		<control id="1026" class="BUTTON" caption="使用自定义滤波设置" style="1342242819" position="31, 192, 97, 10"/>
+		<control style="1342177296" position="133, 196, 432, 1"/>
+		<control style="1342177296" position="10, 231, 555, 1"/>
+		<control style="1342177297" position="563, 196, 1, 37"/>
+		<control style="1342177297" position="10, 196, 1, 38"/>
+		<control style="1342177296" position="10, 196, 15, 1"/>
+		<control caption="滤波方式:" style="1342308354" position="15, 211, 53, 8"/>
+		<control caption="注: 如果对应位按钮显示为&quot;X&quot;表示此位为无关位，比如设为&quot;XXX XXXXX111&quot;，则表示收到的帧ID中只要低3位不为&quot;111&quot;就会被过滤掉。" position="19, 155, 412, 24"/>
+		<control caption="帧类型:" style="1342308354" position="144, 211, 51, 8"/>
+		<control id="1036" caption="指定ID: 0x" style="1342308354" position="298, 15, 50, 8"/>
+		<control id="1037" caption="到 0x" style="1073872898" position="464, 275, 28, 8"/>
+	</dialog>
+</resource>

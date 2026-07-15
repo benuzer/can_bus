@@ -1,0 +1,120 @@
+#############################################
+##      Renault Clio CAN Bus data          ##
+#############################################
+
+Description:
+This folder contains various datasets of CAN bus data for the car Renault Clio.
+Certain datasets (see 'Normal data') have not been modified, while the attack datasets (see below 'Áttack data') have been modified to contain specific CAN bus attacks. 
+
+First we captured the normal data while driving the car in urban environment, with a laptop and a CAN-to-USB interface (CANtact) connected to the OBD-II port.
+Data captured with the tool candump from the canutil tool suit.
+
+Since we could not attack our car directly, we modified manually some of the data to create datasets of CAN bus attacks.
+
+This collection of datasets is made for research purposes in the field of Intrusion Detection Systems for CAN bus.
+
+
+#############################################
+Normal data
+#############################################
+
+These datasets have been captured while driving the car in urban environment, with a laptop and a CAN-to-USB interface (CANtact) connected to the OBD-II port.
+Data captured with the tool candump from the canutil too suit.
+No modification has been made to the files.
+
+full_data_capture.log: This represents the entire data capture.
+Duration: 275.09 seconds (+/- 4.5 minutes)
+Number of packets captured: 386567
+Number of unique CAN IDs: 55
+
+	training.log: split of the file full_data_capture.log, represents the first 70%
+	Duration: 192.54 seconds (+/- 3.2 minutes)
+	Number of packets: 270596
+	Number of unique CAN IDs: 55
+
+	testing.log: split of the file full_data_capture.log, represents the remaining 30%
+	Duration: 82.54 seconds (+/- 1.3 minutes)
+	Number of packets: 115971
+	Number of unique CAN IDs: 55
+
+
+#############################################
+Attack data
+#############################################
+
+These datasets have been created by modifying copies of the testing dataset.
+Each copy presents a specific CAN bus attack, as described below.
+For injection-based attacks, we added packets manually and adjusted timestamps accordingly.
+
+
+diagnostic.log:
+The attack consists in injecting 10 messages with CAN ID between the values '700' and '7FF', as described in Woo's paper*.
+(*S. Woo et al., “A Practical Wireless Attack on the Connected Car and Security Protocol for In-Vehicle CAN,” IEEE Transactions on Intelligent Transportation Systems, 2015)
+Injected packets:
+(1508687482.406900) slcan0 760#0000000000000000
+(1508687487.866800) slcan0 760#0000000000000000
+(1508687502.575500) slcan0 760#0000000000000000
+(1508687512.499500) slcan0 760#0000000000000000
+(1508687518.669000) slcan0 7E0#0000000000000000
+(1508687523.374000) slcan0 7E0#0000000000000000
+(1508687525.644000) slcan0 7E0#0000000000000000
+(1508687529.981900) slcan0 7E0#0000000000000000
+(1508687534.287000) slcan0 726#0000000000000000
+(1508687539.609000) slcan0 726#0000000000000000
+
+
+dosattack.log:
+The attack consists in injecting messages with CAN ID '000' (highest priority) for 10 seconds.
+It simulates a flood of a 500 Kpbs CAN bus. 
+We replace all messages in a block of 10 seconds with high priority CAN messages sent at a rate of 4 packets per milliseconds.
+Format of the packets injected: 000#0000000000000000
+Total number of packet injected: 40001
+Start of attack: line 41533
+First packet: (1508687506.000236) slcan0 000#0000000000000000
+End of attack: line 81533
+Last packet: (1508687515.999845) slcan0 000#0000000000000000
+
+
+fuzzing_canid.log:
+The attack consists in injecting a total of 10 messages with CAN ID values that are not part of the legitimate values (i.e., CAN ID values not seen in normal traffic)
+Injected packets:
+(1508687487.890000) slcan0 111#0000000000000000
+(1508687492.956990) slcan0 111#0000000000000000
+(1508687499.119000) slcan0 111#0000000000000000
+(1508687504.279400) slcan0 222#0000000000000000
+(1508687509.908800) slcan0 222#0000000000000000
+(1508687514.807100) slcan0 222#0000000000000000
+(1508687524.537000) slcan0 333#0000000000000000
+(1508687528.251700) slcan0 333#0000000000000000
+(1508687533.801300) slcan0 333#0000000000000000
+(1508687537.851000) slcan0 444#0000000000000000
+
+
+fuzzing_payload.log:
+The attack consists in modifying the payload of 10 messages from CAN ID '18A' to a payload value not used in legitimate traffic. This attack does not involve injecting new packets.
+Packets with modified payload:
+(1508687506.038589) slcan0 18A#FFFFFFFFFFFFFFFF
+(1508687506.048527) slcan0 18A#FFFFFFFFFFFFFFFF
+(1508687506.058697) slcan0 18A#FFFFFFFFFFFFFFFF
+(1508687506.068532) slcan0 18A#FFFFFFFFFFFFFFFF
+(1508687506.078506) slcan0 18A#FFFFFFFFFFFFFFFF
+(1508687506.089060) slcan0 18A#FFFFFFFFFFFFFFFF
+(1508687506.098673) slcan0 18A#FFFFFFFFFFFFFFFF
+(1508687506.108634) slcan0 18A#FFFFFFFFFFFFFFFF
+(1508687506.118458) slcan0 18A#FFFFFFFFFFFFFFFF
+(1508687506.129889) slcan0 18A#FFFFFFFFFFFFFFFF
+
+
+replay.log:
+This attack consists in the injection of CAN ID '2C6' ten times faster.
+We injected a total of 30 messages.
+The normal average frequency for this CAN ID is one packet every 0.02 second.
+We replay this CAN ID ten times faster by injecting a packet every 0.002 second.
+Start of attack: (1508687499.839714) slcan0 2C6#FFFFFFFFFFF0
+End of attack: (1508687499.905626) slcan0 2C6#FFFFFFFFFFF0
+
+
+suspension.log:
+This attack consists in the deletion of messages with CAN ID '2C6' over a period of 10 seconds.
+Start of attack: (1508687499.999696) slcan0 2C6#FFFFFFFFFFF0
+End of attack: (1508687510.000100) slcan0 2C6#FFFFFFFFFFF0

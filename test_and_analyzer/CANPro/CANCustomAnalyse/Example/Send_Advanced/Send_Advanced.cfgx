@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CanCustomAnalyseConfig>
+  <LayoutInfo>
+    <Style>
+    </Style>
+    <Panels>
+    </Panels>
+  </LayoutInfo>
+  <ProtocolFile Path="C:\Documents and Settings\zhangjianyu\桌面\sendTest\Advanced\Send_Advanced.ccp" />
+  <PanelsInfo Orientation="1">
+    <Panel Name="数据面板1" Type="Data" Remark="">
+      <Layout TabGroup="0" ShowPanel="1" />
+      <SingleList>
+        <Single Name="Arc/Sin" />
+        <Single Name="Arc/Cos" />
+        <Single Name="Arc/HalfSin" />
+        <Single Name="Line/SqureWave" />
+        <Single Name="Line/ObliqueWave" />
+      </SingleList>
+    </Panel>
+  </PanelsInfo>
+</CanCustomAnalyseConfig>

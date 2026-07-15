@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<resource CompactMode="1" Language="Chinese (PRC)" LANGID="2052">
+	<string id="505" value="Bin Show\nBIN"/>
+	<string id="506" value="Dec Show\nDEC"/>
+	<string id="507" value="Hex Show\nHEX"/>
+	<string id="508" value="Send Data\nsend"/>
+	<string id="509" value="Trigger Setting\nTrigger Setting"/>
+	<string id="510" value="Alias Setting\nAlias"/>
+	<string id="511" value="Enable Trigger\nEnable Trigger"/>
+	<string id="512" value="No Show Send Frame\nHide"/>
+	<string id="515" value="Show or change the configuration of current protocol\nConfigure current protocol"/>
+	<string id="516" value="Create,delete,select or rename the protocols\nManage Protocols"/>
+	<string id="20000" value="ScriptProPlugin"/>
+	<string id="20001" value="Index"/>
+	<string id="20002" value="Time Mark"/>
+	<string id="20003" value="Direction"/>
+	<string id="20004" value="Status"/>
+	<string id="20005" value="Column Name"/>
+	<string id="20006" value="Condition Script"/>
+	<string id="20007" value="BIN"/>
+	<string id="20008" value="DEC"/>
+	<string id="20009" value="HEX"/>
+	<string id="20010" value="Text Color"/>
+	<string id="20011" value="Standard Frame"/>
+	<string id="20012" value="Extern Frame"/>
+	<string id="20013" value="Data Frame"/>
+	<string id="20014" value="Remote Frame"/>
+	<string id="20015" value="Normal Send"/>
+	<string id="20016" value="Single Send"/>
+	<string id="20017" value="Send Receive"/>
+	<string id="20018" value="Single Send Receive"/>
+	<string id="20019" value="Segment Name"/>
+	<string id="20020" value="Segment Value"/>
+	<string id="20021" value="Is Valid?"/>
+	<string id="20022" value="Valid"/>
+	<string id="20023" value="Protocol Invalid"/>
+	<string id="20024" value="Segment Invalid"/>
+	<string id="20025" value="Send Type"/>
+	<string id="20026" value="Frames"/>
+	<string id="20027" value="Times"/>
+	<string id="20028" value="Interval"/>
+	<string id="20029" value="OK"/>
+	<string id="20030" value="Cancel"/>
+	<string id="20031" value="Exit"/>
+	<string id="20032" value="Trigger Send Data"/>
+	<string id="20033" value="The value you set is invalid"/>
+	<string id="20034" value="CAN Frame's ID should not be empty"/>
+	<string id="20035" value="CAN Frame's DLC should not be empty"/>
+	<string id="20036" value="CAN Frame's DLC should not be bigger than 8"/>
+	<string id="20037" value="CAN Frame's DATA is wrong"/>
+	<string id="20038" value="The number of frames should not be empty"/>
+	<string id="20039" value="The interval should not be empty"/>
+	<string id="20040" value="The times of sending should not be empty"/>
+	<string id="20041" value="The cycle times should not be empty"/>
+	<string id="20042" value="Send"/>
+	<string id="20043" value="Cancel Send"/>
+	<string id="20044" value="Send Immediately"/>
+	<string id="20045" value="Send Data"/>
+	<string id="20046" value="Trigger Send Type"/>
+	<string id="20047" value="Use Condition"/>
+	<string id="20048" value="Bits Map"/>
+	<string id="20049" value="Explain Type"/>
+	<string id="20050" value="Is Show?"/>
+	<string id="20051" value="Use Value Script"/>
+	<string id="20052" value="View"/>
+	<string id="20053" value="Set"/>
+	<string id="20054" value="Max Message ID"/>
+	<string id="20055" value="Min Message ID"/>
+	<string id="20056" value="Message Name"/>
+	<string id="20057" value="Segments"/>
+	<string id="20058" value="Bit Index"/>
+	<string id="20059" value="Map Bit"/>
+	<string id="20060" value="Min Value"/>
+	<string id="20061" value="Max Value"/>
+	<string id="20062" value="Segment Value Name"/>
+	<string id="20063" value="YES"/>
+	<string id="20064" value="NO"/>
+	<string id="20065" value="The Protocol is invalid,would you cancel and exit?"/>
+	<string id="20066" value="The Message is invalid,would you cancel and exit?"/>
+	<string id="20067" value="The Segment is invalid,would you cancel and exit?"/>
+	<string id="20068" value="The min segment value is invalid,please input a binary string"/>
+	<string id="20069" value="The max segment value is invalid,please input a binary string"/>
+	<string id="20070" value="Segment value name should not be empty"/>
+	<string id="20071" value="The range of the segment value is wrong.please try it again"/>
+	<string id="20072" value="The range of the segment conflict with some before,please try it after deleting that"/>
+	<string id="20073" value="BIT"/>
+	<string id="20074" value="BYTE"/>
+	<string id="20075" value="WORD"/>
+	<string id="20076" value="DWORD"/>
+	<string id="20077" value="Save the protocol failed"/>
+	<string id="20078" value="Script Checking Success!"/>
+	<string id="20079" value="Script Checking failed:"/>
+	<string id="20080" value="The protocol name should not be empty"/>
+	<string id="20081" value="The protocol name conflict with some others"/>
+	<string id="20082" value="The default protocol can't be deleted"/>
+	<string id="20083" value="The default protocol can't be renamed"/>
+	<string id="20084" value="The Protocol cannot be used after delete it,Are you sure to do that?"/>
+	<string id="20085" value="The system has started,please try it after stop"/>	
+	<string id="20086" value="bits"/>
+	<string id="20087" value="The show column definition is invalid,would you cancel and exit?"/>
+	<string id="20088" value="Message Description"/>
+	<string id="20089" value="Message Content"/>
+	<string id="20090" value="(Unknown Message)"/>
+	<string id="20091" value="Protocol Name"/>
+	<string id="20092" value="Segment Name"/>
+	<string id="20093" value="Can not create the file"/>
+	<string id="20094" value="CAN Frame"/>
+	<string id="20095" value="Search"/>
+	<string id="20096" value="Cluster"/>
+	<string id="20097" value="Note:the data can't be updated real time.the last time is "/>
+	<string id="20098" value="Detect another cluster£¬cancel this"/>
+	<string id="20099" value="(No Limit)"/>
+	<string id="20100" value="Detect another searching£¬cancel this"/>
+	<string id="20101" value="failed to run the script:"/>
+	<string id="20102" value="Run"/>
+	<string id="20103" value="Stop"/>
+	<string id="20104" value="Failed to open the file"/>
+	<string id="20105" value="Filter"/>
+	<string id="20106" value="Filter Unknown"/>
+	<string id="20107" value="Receive"/>
+	<string id="20108" value="Success"/>
+	<string id="20109" value="Failed"/>
+	<string id="20110" value="Frame ID"/>
+	<string id="22018" value="Send list item\nSend"/>
+	<string id="22020" value="The num of Frames in one send must be less than %d."/>	
+	<menu id="20100">
+		<menuitem caption="1">
+			<menuitem caption="Show Type">
+				<menuitem id="505" caption="BIN"/>
+				<menuitem id="506" caption="DEC"/>
+				<menuitem id="507" caption="HEX"/>
+			</menuitem>
+			<menuitem id="508" caption="Send Data"/>
+			<menuitem/>
+			<menuitem id="509" caption="Trigger Setting"/>
+			<menuitem id="511" caption="Enable Trigger"/>
+			<menuitem id="512" caption="Hide Send Frame"/>
+			<menuitem id="515" caption="Configure Protocol"/>
+			<menuitem id="516" caption="Manage Protocols"/>
+		</menuitem>
+		<menuitem caption="2">
+			<menuitem id="22018" caption="Send"/>
+		</menuitem>
+	</menu>
+	<menu id="21009">
+		<menuitem caption="0">
+			<menuitem id="22016" caption="Up"/>
+			<menuitem id="22017" caption="Down"/>
+			<menuitem id="22007" caption="Add Message"/>
+			<menuitem id="22008" caption="Add Segment"/>
+			<menuitem id="22010" caption="Delete"/>
+		</menuitem>
+		<menuitem caption="1">
+			<menuitem id="22010" caption="Delete"/>
+		</menuitem>
+		<menuitem caption="2">
+			<menuitem id="22011" caption="New Protocol..."/>
+			<menuitem id="22012" caption="Delete"/>
+			<menuitem id="22013" caption="Rename..."/>
+		</menuitem>
+		<menuitem caption="3">
+			<menuitem id="22015" caption="Cluster"/>
+		</menuitem>
+	</menu>
+	<dialog id="20113" fontsize="9" fontface="MS Sans Serif" style="1073741888" position="0, 0, 460, 320">
+		<control caption="List Color" position="10, 9, 32, 8"/>
+		<control style="1342177296" position="47, 12, 398, 1"/>
+		<control caption="Background:" position="20, 26, 43, 8"/>
+		<control id="21000" class="BUTTON" style="1342242816" position="63, 21, 373, 16"/>
+		<control class="BUTTON" caption="Column Text Color Setting  " style="1342177287" position="10, 46, 212, 151"/>
+		<control class="BUTTON" caption=" Row Text Color Setting" style="1342177287" position="229, 46, 215, 200"/>
+		<control id="20143" class="BUTTON" caption="Hide Frame Condition Script" style="1342177287" position="10, 203, 212, 109"/>
+		<control id="20102" class="CodejockSyntaxEditor" style="1342242816" position="20, 217, 191, 67"/>
+		<control id="20103" class="SysListView32" caption="List1" style="1350631429" position="20, 59, 192, 114"/>
+		<control id="20104" class="BUTTON" style="1342242816" position="110, 177, 46, 14"/>
+		<control caption="Column Text Color:" position="63, 180, 44, 8"/>
+		<control id="20105" class="BUTTON" caption="Set" style="1342242816" position="166, 177, 45, 14"/>
+		<control id="20106" class="COMBOBOX" style="1344339971" position="30, 178, 29, 104"/>
+		<control caption=" " position="20, 180, 8, 8"/>
+		<control caption="Show Type:" position="238, 253, 40, 8"/>
+		<control id="21001" class="COMBOBOX" style="1344339971" position="278, 251, 61, 104"/>
+		<control id="20107" class="BUTTON" caption="Hide Send Frame" style="1342242819" position="364, 253, 70, 10"/>
+		<control id="20128" class="SysListView32" caption="List1" style="1350631433" position="237, 143, 198, 97"/>
+		<control id="20101" class="CodejockSyntaxEditor" style="134224816" position="238, 68, 138, 51"/>
+		<control id="20142" caption="Condition Script" position="239, 58, 138, 8"/>
+		<control caption="Set Color:" position="386, 59, 40, 8"/>
+		<control id="20129" class="BUTTON" style="1342242816" position="386, 71, 49, 14"/>
+		<control id="20130" class="BUTTON" caption="Add" style="1342242816" position="352, 127, 38, 13"/>
+		<control id="20131" class="BUTTON" caption="Delete" style="1342242816" position="397, 127, 38, 13"/>
+		<control id="20208" class="BUTTON" caption="Check Script" style="1342242816" position="239, 122, 57, 14"/>
+		<control id="20209" class="BUTTON" caption="Check Script" style="1342242816" position="152, 291, 57, 15"/>
+		<control id="20220" class="BUTTON" caption="Trigger Setting" style="1342242816" position="364, 275, 70, 16"/>
+		<control id="20221" class="BUTTON" caption="Load" style="1342242816" position="312, 287, 39, 13"/>
+		<control class="BUTTON" caption="Load Configurate" style="1342177287" position="228, 271, 129, 41"/>
+		<control id="20222" class="COMBOBOX" style="1344339971" position="235, 287, 68, 85"/>
+	</dialog>
+	<dialog id="20115" caption="Send Data" fontsize="9" fontface="MS Sans Serif" style="-2133917632" position="0, 0, 361, 348" dialogex="1">
+		<control id="20223" class="COMBOBOX" style="1344339971" position="45, 21, 197, 116"/>
+		<control id="20285" class="BUTTON" caption="Message Setting" style="1342177287" styleex="32" position="6, 6, 349, 137"/>
+		<control id="20286" caption="The CAN Frame:" position="253, 22, 65, 8"/>
+		<control id="20298" style="1342177295" styleex="131072" position="246, 18, 1, 120"/>
+		<control id="20287" caption="Frame Type" position="253, 40, 48, 8"/>
+		<control id="20288" caption="Frame Format" position="253, 58, 48, 8"/>
+		<control id="20108" class="COMBOBOX" style="1344339971" position="303, 38, 48, 84"/>
+		<control id="20109" class="COMBOBOX" style="1344339971" position="303, 56, 48, 87"/>
+		<control id="20289" caption="ID:0x" position="253, 78, 19, 8"/>
+		<control id="20111" class="EDIT" style="1350631552" position="274, 74, 53, 14"/>
+		<control id="20290" caption="DLC:" position="253, 96, 14, 8"/>
+		<control id="20112" class="EDIT" style="1350639744" position="274, 93, 36, 13"/>
+		<control id="20291" caption="DATA:0x" position="254, 111, 28, 8"/>
+		<control id="20114" class="EDIT" style="1350631552" position="251, 121, 100, 14"/>
+		<control id="20297" class="BUTTON" caption="Send Setting" style="1342177287" position="6, 150, 349, 48"/>
+		<control caption="Send Type:" position="13, 163, 42, 8"/>
+		<control id="20116" class="COMBOBOX" style="1344339971" position="55, 161, 75, 84"/>
+		<control caption="Number Of Frames:" position="12, 181, 68, 8"/>
+		<control id="20117" class="EDIT" style="1350631552" position="82, 178, 48, 13"/>
+		<control id="20293" caption="Send Times:" position="242, 181, 44, 8"/>
+		<control id="20119" class="EDIT" style="1350631552" position="287, 178, 55, 13"/>
+		<control id="20292" caption="Interval:" position="144, 181, 36, 8"/>
+		<control id="20121" class="EDIT" style="1350631552" position="181, 178, 34, 13"/>
+		<control caption="ms" position="219, 182, 8, 8"/>
+		<control id="20122" class="BUTTON" caption="Send Now" style="1342242816" position="73, 203, 60, 17"/>
+		<control id="20123" class="BUTTON" caption="Add To List" style="1342242816" position="144, 203, 60, 17"/>
+		<control id="20124" class="SysListView32" caption="List1" style="1350631433" position="8, 230, 346, 92"/>
+		<control caption="Send List" position="9, 219, 49, 8"/>
+		<control id="20125" class="BUTTON" caption="Send" style="1342242816" position="201, 326, 57, 16"/>
+		<control id="20294" caption="Cycle Times:" position="264, 330, 50, 8"/>
+		<control id="20126" class="EDIT" style="1350631552" position="314, 327, 37, 13"/>
+		<control id="20127" class="BUTTON" caption="Delete" style="1342242816" position="9, 325, 53, 16"/>
+		<control id="20132" class="XTPReport" style="1342242816" position="9, 39, 233, 98"/>
+		<control caption="Message:" position="11, 23, 34, 8"/>
+		<control id="20224" class="EDIT" style="1082196096" position="45, 21, 197, 14"/>
+		<control id="20277" class="BUTTON" caption="Send From Script" style="1342242816" position="215, 203, 76, 17"/>
+	</dialog>
+	<dialog id="20118" caption="Receiving Trigger" fontsize="9" fontface="MS Sans Serif" style="-2133917632" position="0, 0, 274, 265">
+		<control id="20299" class="BUTTON" caption="Trigger Haltshow Setting" style="1342177287" position="5, 6, 259, 77"/>
+		<control id="20144" caption="Trigger Haltshow Script" position="17, 19, 190, 8"/>
+		<control id="20133" class="CodejockSyntaxEditor" style="1342242816" position="13, 29, 245, 48"/>
+		<control id="20300" class="BUTTON" caption="Trigger Send Setting" style="1342177287" position="5, 86, 259, 156"/>
+		<control id="20134" class="BUTTON" caption="OK" style="1342242816" position="156, 245, 49, 15"/>
+		<control id="20135" class="BUTTON" caption="Cancel" style="1342242816" position="214, 245, 49, 15"/>
+		<control id="20145" caption="Condition Script" position="13, 100, 130, 8"/>
+		<control id="20136" class="CodejockSyntaxEditor" style="134224816" position="11, 109, 185, 36"/>
+		<control id="20301" caption="Trigger Send Type:" style="1073872896" position="201, 98, 52, 8"/>
+		<control id="20137" class="COMBOBOX" style="1075904771" position="201, 108, 57, 104"/>
+		<control id="20138" class="BUTTON" caption="Set Send List" style="1342242816" position="201, 128, 57, 16"/>
+		<control id="20139" class="SysListView32" caption="List1" style="1350631433" position="12, 168, 247, 69"/>
+		<control id="20140" class="BUTTON" caption="Add" style="1342242816" position="162, 152, 43, 13"/>
+		<control id="20141" class="BUTTON" caption="Delete" style="1342242816" position="214, 152, 43, 13"/>
+		<control id="20208" class="BUTTON" caption="Check Script" style="1342242816" position="201, 13, 57, 14"/>
+		<control id="20209" class="BUTTON" caption="Check Script" style="1342242816" position="136, 94, 57, 14"/>
+	</dialog>
+	<dialog id="21007" caption="Configure Protocol" fontsize="9" fontface="MS Sans Serif" style="-2133917632" position="0, 0, 385, 369" dialogex="1">
+		<control id="20134" class="BUTTON" caption="OK" style="1342242817" position="275, 354, 50, 15"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="333, 354, 50, 15"/>
+		<control id="22003" class="BUTTON" caption="View Mode" style="1342308361" position="275, 4, 45, 14"/>
+		<control id="22004" class="BUTTON" caption="Edit Mode" style="1342177289" position="340, 4, 43, 14"/>
+		<control id="20152" class="BUTTON" caption="Save To File" style="1342242819" position="6, 354, 62, 15"/>
+		<control id="20206" class="BUTTON" caption="Restore" style="1342242816" position="103, 354, 52, 15"/>
+		<control id="20188" class="SysTreeView32" caption="Tree1" style="1350631431" position="6, 22, 149, 328"/>
+		<control id="20197" style="1073872896" styleex="512" position="161, 66, 222, 284"/>
+		<control caption="Protocol:" style="1342308864" position="6, 4, 44, 14"/>
+		<control id="20228" caption=" " style="1342308864" position="161, 22, 32, 14"/>
+		<control id="20229" class="EDIT" style="1350631552" position="210, 22, 178, 14"/>
+		<control id="20250" class="BUTTON" caption="Custom Text Color" style="1342242819" position="161, 44, 84, 12"/>
+		<control id="20251" class="BUTTON" style="1342242816" position="253, 44, 43, 12"/>
+		<control id="20276" class="BUTTON" caption="Filter" style="1342242819" position="320, 44, 63, 12"/>
+	</dialog>
+	<dialog id="21011" caption="Protocol Name" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 165, 68">
+		<control id="1" class="BUTTON" caption="OK" style="1342242817" position="41, 43, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="101, 43, 50, 16"/>
+		<control caption="Protocol Name:" position="12, 8, 96, 8"/>
+		<control id="20146" class="EDIT" style="1350631552" position="11, 19, 140, 14"/>
+	</dialog>
+	<dialog id="21014" fontsize="9" fontface="MS Sans Serif" style="1073741888" position="0, 0, 213, 145" dialogex="1">
+		<control id="20226" class="BUTTON" caption="No Use" style="1342308361" position="8, 13, 128, 10"/>
+		<control id="20227" class="BUTTON" caption="Use Bits Section" style="1342177289" position="8, 25, 158, 10"/>
+		<control id="20228" class="BUTTON" caption="Use Script" style="1342177289" position="8, 38, 164, 10"/>
+		<control id="20168" caption="Condition Script" position="20, 48, 127, 8"/>
+		<control id="20151" class="CodejockSyntaxEditor" style="1342242816" position="18, 59, 186, 65"/>
+		<control id="20208" class="BUTTON" caption="Check Script" style="1342242816" position="144, 128, 57, 14"/>
+		<control id="20240" class="BUTTON" caption="Condition Setting" style="1342177287" position="1, 2, 210, 143"/>
+		<control id="20239" class="BUTTON" caption="Valid Ranges" style="1342177287" position="106, 36, 97, 94"/>
+		<control id="20230" style="1073741831" position="19, 57, 80, 68"/>
+		<control id="20233" class="BUTTON" caption="Add" style="1342242816" position="45, 44, 26, 11"/>
+		<control id="20234" class="BUTTON" caption="Delete" style="1342242816" position="72, 44, 28, 11"/>
+		<control id="20238" class="BUTTON" caption="Bits Map" style="1342177287" position="16, 36, 87, 94"/>
+		<control id="20235" class="SysListView32" caption="List1" style="1350631433" position="109, 57, 91, 67"/>
+		<control id="20236" class="BUTTON" caption="Add" style="1342242816" position="144, 43, 26, 11"/>
+		<control id="20237" class="BUTTON" caption="Delete" style="1342242816" position="171, 43, 28, 11"/>
+	</dialog>
+	<dialog id="21015" caption="Range Of Value" fontsize="9" fontface="MS Sans Serif" style="-2134376256" position="0, 0, 186, 108">
+		<control id="1" class="BUTTON" caption="OK" style="1342242817" position="85, 83, 39, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="134, 83, 39, 16"/>
+		<control caption="Bits" position="11, 15, 32, 8"/>
+		<control id="20214" class="EDIT" style="1350631552" position="42, 13, 33, 12"/>
+		<control caption="Min  0x" position="11, 31, 32, 8"/>
+		<control caption="Max  0x" position="11, 46, 33, 8"/>
+		<control id="20215" class="EDIT" style="1350631552" position="42, 29, 78, 12"/>
+		<control id="20216" class="EDIT" style="1350631552" position="42, 45, 78, 12"/>
+		<control id="20228" caption="Name" position="11, 63, 26, 8"/>
+		<control id="20217" class="EDIT" style="1350631552" position="45, 61, 128, 14"/>
+	</dialog>
+	<dialog id="21016" caption="Result Analyze" fontsize="9" fontface="MS Sans Serif" style="-2134048704" position="0, 0, 603, 343">
+		<control id="20134" class="BUTTON" caption="Exit" style="1342242817" position="535, 323, 60, 16"/>
+		<control id="20255" caption="Note:the data can't be updated real time.the last time is " position="8, 13, 363, 9"/>
+		<control id="20254" class="BUTTON" caption="Update Data" style="1342242816" position="527, 5, 69, 16"/>
+		<control id="20258" style="1342177543" position="7, 23, 589, 295"/>
+	</dialog>
+	<dialog id="21017" fontsize="9" fontface="MS Sans Serif" style="1073741888" position="0, 0, 590, 305" dialogex="1">
+		<control caption="Line:" position="8, 16, 20, 8"/>
+		<control id="20256" class="EDIT" style="1350631552" position="29, 14, 70, 13"/>
+		<control id="20257" class="BUTTON" caption="Jump to" style="1342242816" position="104, 14, 36, 14"/>
+		<control style="1342177288" position="3, 36, 146, 1"/>
+		<control id="20260" caption="Static" style="1073872896" styleex="512" position="158, 22, 428, 276"/>
+		<control caption="Message description include:" position="7, 43, 138, 8"/>
+		<control id="20269" class="COMBOBOX" style="1344339970" position="7, 53, 133, 112"/>
+		<control caption="And segment" position="7, 71, 112, 8"/>
+		<control id="20270" class="COMBOBOX" style="1344339971" position="7, 81, 133, 112"/>
+		<control caption="Text include string:" position="7, 98, 89, 8"/>
+		<control id="20271" class="COMBOBOX" style="1344339970" position="7, 108, 133, 112"/>
+		<control id="20272" class="BUTTON" caption="Search" style="1342242816" position="87, 139, 51, 16"/>
+		<control id="20273" class="BUTTON" caption="Search in result" style="1342242819" position="7, 126, 82, 10"/>
+		<control id="20266" caption="Progress:" position="8, 274, 81, 8"/>
+		<control id="20274" class="msctls_progress32" caption="Progress1" style="1350565888" position="7, 284, 132, 14"/>
+		<control id="20135" class="BUTTON" caption="Cancel" style="1342242816" position="95, 268, 43, 14"/>
+		<control caption="Number of records:" position="159, 9, 44, 8"/>
+		<control id="20275" class="EDIT" style="1350633600" position="205, 6, 106, 13"/>
+	</dialog>
+	<dialog id="21018" caption="Message Cluster" fontsize="9" fontface="MS Sans Serif" style="-2133917632" position="0, 0, 288, 211">
+		<control id="20134" class="BUTTON" caption="OK" style="1342242817" position="165, 187, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="226, 187, 50, 16"/>
+		<control caption="Message" position="8, 12, 31, 8"/>
+		<control id="20263" class="EDIT" style="1350633600" position="39, 9, 237, 14"/>
+		<control id="20284" class="BUTTON" caption="Cluster Condition Setting" style="1342177287" position="5, 31, 272, 150"/>
+		<control id="20140" class="BUTTON" caption="Add-&gt;" style="1342242816" position="123, 88, 41, 16"/>
+		<control id="20141" class="BUTTON" caption="&lt;-Delete" style="1342242816" position="123, 117, 41, 16"/>
+		<control id="20295" class="LISTBOX" style="1352728835" position="174, 46, 95, 128"/>
+		<control id="20296" class="LISTBOX" style="1352728833" position="13, 46, 99, 128"/>
+	</dialog>
+	<dialog id="21019" caption="Send From Script" fontsize="9" fontface="MS Sans Serif" style="-2133917632" position="0, 0, 294, 193">
+		<control id="20278" caption="Send Script" position="11, 14, 79, 8"/>
+		<control id="20279" class="CodejockSyntaxEditor" style="1342242816" position="10, 25, 275, 139"/>
+		<control id="20280" class="BUTTON" caption="Run" style="1342242816" position="216, 170, 62, 18"/>
+		<control id="20282" class="BUTTON" caption="Exit Flag" style="1342242819" position="10, 168, 63, 11"/>
+		<control id="20283" class="BUTTON" caption="Load From File" style="1342242816" position="144, 7, 65, 15"/>
+		<control id="20284" class="BUTTON" caption="Save To File" style="1342242816" position="216, 7, 65, 15"/>
+	</dialog>
+	<dialog id="22000" caption="Manage Protocol" fontsize="9" fontface="MS Sans Serif" style="-2133917632" position="0, 0, 236, 181">
+		<control id="20166" class="BUTTON" caption="Select" style="1342242817" position="117, 157, 49, 16"/>
+		<control id="2" class="BUTTON" caption="Exit" style="1342242816" position="173, 157, 49, 16"/>
+		<control id="21002" class="SysListView32" caption="List1" style="1350631436" position="10, 20, 213, 132"/>
+		<control caption="All Protocol:" position="11, 9, 76, 8"/>
+	</dialog>
+	<dialog id="22001" fontsize="9" fontface="MS Sans Serif" style="1073741888" position="0, 0, 213, 148" dialogex="1">
+		<control id="20241" class="BUTTON" caption="Use Bits Section" style="1342177289" position="8, 11, 158, 10"/>
+		<control id="20242" class="BUTTON" caption="Use Script" style="1342177289" position="8, 25, 164, 10"/>
+		<control id="20246" caption="Script" position="20, 35, 127, 8"/>
+		<control id="20196" class="CodejockSyntaxEditor" style="1342242816" position="18, 46, 186, 80"/>
+		<control id="20208" class="BUTTON" caption="Check Script" style="1342242816" position="144, 129, 57, 14"/>
+		<control id="20240" class="BUTTON" caption="Segment Value Setting" style="1342177287" position="1, 0, 210, 148"/>
+		<control id="20247" class="BUTTON" caption="Segment Value Name" style="1342177287" position="106, 23, 97, 94"/>
+		<control id="20230" style="1073741831" position="19, 44, 80, 68"/>
+		<control id="20233" class="BUTTON" caption="Add" style="1342242816" position="45, 31, 26, 11"/>
+		<control id="20234" class="BUTTON" caption="Delete" style="1342242816" position="72, 31, 28, 11"/>
+		<control id="20238" class="BUTTON" caption="Bit Map" style="1342177287" position="16, 23, 87, 94"/>
+		<control id="20243" class="SysListView32" caption="List1" style="1350631433" position="109, 44, 91, 67"/>
+		<control id="20244" class="BUTTON" caption="Add" style="1342242816" position="144, 30, 26, 11"/>
+		<control id="20245" class="BUTTON" caption="Delete" style="1342242816" position="171, 30, 28, 11"/>
+		<control id="20248" caption="Explain Type" style="1342308354" position="74, 122, 69, 8"/>
+		<control id="20249" class="COMBOBOX" style="1344339971" position="145, 121, 54, 93"/>
+	</dialog>
+	<dialog id="22002" fontsize="9" fontface="MS Sans Serif" style="1073741888" styleex="4" position="0, 0, 590, 305" dialogex="1">
+		<control id="20260" caption="Static" style="1073872896" styleex="512" position="157, 23, 428, 275"/>
+		<control id="20262" class="SysTreeView32" caption="Tree1" style="1350631431" position="4, 6, 150, 258"/>
+		<control caption="Current class" position="160, 8, 60, 8"/>
+		<control id="20264" class="EDIT" style="1350633600" position="222, 5, 363, 14"/>
+		<control id="20266" caption="Progress:" position="5, 274, 98, 8"/>
+		<control id="20265" class="msctls_progress32" caption="Progress1" style="1350565888" position="4, 284, 149, 14"/>
+		<control id="20135" class="BUTTON" caption="Cancel" style="1342242816" position="108, 269, 43, 14"/>
+	</dialog>
+</resource>
